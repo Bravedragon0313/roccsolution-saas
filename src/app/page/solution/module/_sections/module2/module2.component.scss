@@ -1,0 +1,27 @@
+div {
+    margin-top: 160px;
+}
+
+@media only screen and (max-width: 1199px) {
+    div {
+        margin-top: 128px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    div {
+        margin-top: 112px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    div {
+        margin-top: 96px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    div {
+        margin-top: 80px;
+    }
+}

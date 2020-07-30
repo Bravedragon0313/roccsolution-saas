@@ -1,0 +1,13 @@
+<div class="container-fluid page">
+
+    <app-overview-header></app-overview-header>
+
+    <app-overview1 (triggerNext)="goToNext()" *ngIf="sectionId == 1"></app-overview1>
+
+    <app-overview2 (triggerNext)="goToNext()" *ngIf="sectionId == 2"></app-overview2>
+
+    <app-overview3 (triggerNext)="goToNext()" *ngIf="sectionId == 3"></app-overview3>
+
+    <app-overview4 (triggerNext)="goToNext()" *ngIf="sectionId == 4"></app-overview4>
+
+</div>

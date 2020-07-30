@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+#animation_container {
+    position:absolute;
+    margin:auto;
+    left:0;right:0;
+    top:0;bottom:0;
+}
+
+#bank_canvas, #platform_canvas, #massimor_canvas, #platform_animation_container, #bank_animation_container, #massimor_animation_container,#platform_dom_overlay_container, #scheibe_dom_overlay_container{
+    width: 100% !important;
+    height: unset !important;
+}
+
+#scheibe_canvas, #scheibe_animation_container, #about_dom_overlay_container, #about_canvas, #about_animation_container, #linien_canvas, #linien_animation_container, #linien_dom_overlay_container {
+    width: 100% !important;
+    height: unset !important;
+}

@@ -1,0 +1,225 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: $black-1;
+
+    .container-fluid {
+        padding-left: 0px;
+        padding-right: 0px;
+
+        .row {
+            margin-left: 0px;
+            margin-right: 0px;
+
+            > .col,
+            > [class*="col-"] {
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+        }
+    }
+}
+
+.text-lg {
+    font-size: $font-lg;
+}
+.text-md {
+    font-size: $font-md;
+}
+.text-sm {
+    font-size: $font-sm;
+}
+.text-xs {
+    font-size: $font-xs;
+}
+
+@media only screen and (max-width: 1899px) {
+    .text-lg {
+        font-size: $font-lg-1900;
+    }
+    .text-md {
+        font-size: $font-md-1900;
+    }
+    .text-sm {
+        font-size: $font-sm-1900;
+    }
+    .text-xs {
+        font-size: $font-xs-1900;
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+    .text-lg {
+        font-size: $font-lg-1600;
+    }
+    .text-md {
+        font-size: $font-md-1600;
+    }
+    .text-sm {
+        font-size: $font-sm-1600;
+    }
+    .text-xs {
+        font-size: $font-xs-1600;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .text-lg {
+        font-size: $font-lg-1200;
+    }
+    .text-md {
+        font-size: $font-md-1200;
+    }
+    .text-sm {
+        font-size: $font-sm-1200;
+    }
+    .text-xs {
+        font-size: $font-xs-1200;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .text-lg {
+        font-size: $font-lg-992;
+    }
+    .text-md {
+        font-size: $font-md-992;
+    }
+    .text-sm {
+        font-size: $font-sm-992;
+    }
+    .text-xs {
+        font-size: $font-xs-992;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .text-lg {
+        font-size: $font-lg-768;
+    }
+    .text-md {
+        font-size: $font-md-768;
+    }
+    .text-sm {
+        font-size: $font-sm-768;
+    }
+    .text-xs {
+        font-size: $font-xs-768;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .text-lg {
+        font-size: $font-lg-576;
+    }
+    .text-md {
+        font-size: $font-md-576;
+    }
+    .text-sm {
+        font-size: $font-sm-576;
+    }
+    .text-xs {
+        font-size: $font-xs-576;
+    }
+}
+
+.section {
+    padding-left: $section-pl;
+    padding-right: $section-pr;
+}
+
+.section.full {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media only screen and (max-width: 1899px) {
+    .section {
+        padding-left: $section-pl-1900;
+        padding-right: $section-pr-1900;
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+    .section {
+        padding-left: $section-pl-1600;
+        padding-right: $section-pr-1600;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        padding-left: $section-pl-1200;
+        padding-right: $section-pr-1200;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        padding-left: $section-pl-992;
+        padding-right: $section-pr-992;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        padding-left: $section-pl-768;
+        padding-right: $section-pr-768;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        padding-left: $section-pl-576;
+        padding-right: $section-pr-576;
+    }
+}
+
+.line-button {
+    color: $blue-2;
+    cursor: pointer;
+    display: table;
+    width: fit-content;
+    padding-bottom: 10px;
+    border-bottom: 5px solid $blue-1;
+}
+
+@media only screen and (max-width: 1199px) {
+    .line-button {
+        padding-bottom: 8px;
+        border-bottom-width: 4px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .line-button {
+        padding-bottom: 7px;
+        border-bottom-width: 3.5px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .line-button {
+        padding-bottom: 6px;
+        border-bottom-width: 3px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .line-button {
+        padding-bottom: 5px;
+        border-bottom-width: 2.5px;
+    }
+}
+
+::-webkit-input-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder,
+:-moz-placeholder {
+    color: $black-2;
+}
+
+.cc-window {
+    .cc-btn {
+        text-decoration: none;
+    }
+}

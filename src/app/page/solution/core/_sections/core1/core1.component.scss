@@ -1,0 +1,243 @@
+@import "../../../../../../assets/scss/custom/variables";
+
+.section {
+    margin-top: 40px;
+
+    .panel-1 {
+        .text-1 {
+            margin-right: -50px;
+            font-weight: bold;
+        }
+
+        .text-2,
+        .text-3,
+        .text-4 {
+            margin-top: 40px;
+        }
+
+        .text-3 {
+            font-weight: bold;
+        }
+    }
+
+    .panel-2 {
+        img {
+            margin-top: 150px;
+            width: 110%;
+        }
+    }
+
+    .panel-3 {
+        .list {
+            margin-top: 120px;
+            margin-left: 100px;
+
+            .list-item {
+                margin-top: 25px;
+
+                span:first-child {
+                    color: $blue-6;
+                }
+
+                span {
+                    display: table-cell;
+                }
+            }
+        }
+    }
+}
+
+/* non-default media query*/
+@media only screen and (max-width: 1499px) {
+    .section {
+        .panel-2 {
+            img {
+                margin-top: 180px;
+            }
+        }
+
+        .panel-3 {
+            .list {
+                margin-top: 100px;
+                margin-left: 60px;
+
+                .list-item {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .section {
+        .panel-1 {
+            .text-1,
+            .text-3 {
+                margin-right: -120px;
+            }
+        }
+
+        .panel-2 {
+            img {
+                margin-top: 120px;
+            }
+        }
+
+        .panel-3 {
+            .list {
+                margin-left: 50px;
+
+                .list-item {
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1299px) {
+    .section {
+        .panel-1 {
+            .text-4 {
+                margin-right: -150px;
+            }
+        }
+
+        .panel-2 {
+            img {
+                margin-top: 180px;
+            }
+        }
+    }
+}
+/* non-default media query*/
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        margin-top: 32px;
+
+        .panel-1 {
+            .text-1,
+            .text-3,
+            .text-4 {
+                margin-right: 0px;
+            }
+
+            .text-2,
+            .text-3,
+            .text-4 {
+                margin-top: 32px;
+            }
+        }
+
+        .panel-2 {
+            img {
+                margin-top: 70px;
+                width: 80%;
+            }
+        }
+
+        .panel-3 {
+            .list {
+                margin-left: 0px;
+                margin-top: 40px;
+
+                .list-item {
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        margin-top: 28px;
+
+        .panel-1 {
+            .text-2,
+            .text-3,
+            .text-4 {
+                margin-top: 28px;
+            }
+        }
+
+        .panel-2 {
+            img {
+                margin-top: 60px;
+                width: 90%;
+            }
+        }
+
+        .panel-3 {
+            .list {
+                margin-top: 30px;
+
+                .list-item {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        margin-top: 24px;
+
+        .panel-1 {
+            .text-2,
+            .text-3,
+            .text-4 {
+                margin-top: 24px;
+            }
+        }
+
+        .panel-2 {
+            img {
+                margin-top: 90px;
+                width: 95%;
+            }
+        }
+
+        .panel-3 {
+            .list {
+                .list-item {
+                    margin-top: 7px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        margin-top: 20px;
+
+        .panel-1 {
+            .text-2,
+            .text-3,
+            .text-4 {
+                margin-top: 20px;
+            }
+        }
+
+        .panel-2 {
+            img {
+                margin-top: 20px;
+                width: 90%;
+            }
+        }
+
+        .panel-3 {
+            .list {
+                margin-top: -20px;
+
+                .list-item {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

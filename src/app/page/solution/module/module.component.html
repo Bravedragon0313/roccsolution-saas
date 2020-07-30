@@ -1,0 +1,11 @@
+<div class="container-fluid page">
+
+    <app-module1-a [content]="contents[_id-1]" *ngIf="contents[_id-1].type == 'a'"></app-module1-a>
+
+    <app-module1-b [content]="contents[_id-1]" *ngIf="contents[_id-1].type == 'b'"></app-module1-b>
+
+    <app-module2></app-module2>
+
+    <app-module3></app-module3>
+
+</div>

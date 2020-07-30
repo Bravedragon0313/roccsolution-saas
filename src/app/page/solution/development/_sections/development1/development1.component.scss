@@ -1,0 +1,245 @@
+@import "../../../../../../assets/scss/custom/variables";
+
+.section {
+    padding-top: 50px;
+    height: 97.5vh;
+    background-image: url("assets/img/development-1.png");
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .text-player {
+        .text {
+            padding-right: 120px;
+
+            .text-1 {
+                font-weight: bold;
+            }
+
+            .text-2 {
+                margin-top: 50px;
+            }
+
+            .text-3 {
+                margin-top: 50px;
+            }
+
+            .button {
+                margin-top: 50px;
+            }
+        }
+
+        .player {
+            padding-left: 80px;
+            padding-right: 40px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .scroll-down {
+        position: absolute;
+        bottom: 6.5vh;
+        left: 0px;
+        right: 0px;
+        justify-content: center;
+    }
+}
+
+/* non-default media query*/
+@media only screen and (max-width: 1699px) {
+    .section {
+        height: 92.5vh;
+
+        .text-player {
+            .text {
+                padding-right: 100px;
+            }
+
+            .player {
+                padding-left: 60px;
+                padding-right: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1499px) {
+    .section {
+        height: 87.5vh;
+
+        .text-player {
+            .text {
+                padding-right: 60px;
+            }
+
+            .player {
+                padding-left: 40px;
+                padding-right: 0px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .section {
+        height: 82.5vh;
+
+        .text-player {
+            .text {
+                padding-right: 40px;
+            }
+
+            .player {
+                padding-left: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1299px) {
+    .section {
+        height: 77.5vh;
+
+        .text-player {
+            .text {
+                padding-right: 0px;
+            }
+
+            .player {
+                padding-left: 40px;
+            }
+        }
+    }
+}
+
+/* non-default media query*/
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        padding-top: 40px;
+        height: 70vh;
+
+        .text-player {
+            .text {
+                .text-2 {
+                    margin-top: 40px;
+                }
+
+                .text-3 {
+                    margin-top: 40px;
+                }
+
+                .button {
+                    margin-top: 40px;
+                }
+            }
+
+            .player {
+                padding-left: 60px;
+                padding-top: 70px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        padding-top: 35px;
+        height: 80vh;
+
+        .text-player {
+            .text {
+                padding-right: 0px;
+
+                .text-2 {
+                    margin-top: 35px;
+                }
+
+                .text-3 {
+                    margin-top: 35px;
+                }
+
+                .button {
+                    margin-top: 35px;
+                }
+            }
+
+            .player {
+                padding-left: 0px;
+                padding-right: 0px;
+                padding-top: 35px;
+                text-align: center;
+
+                img {
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        padding-top: 30px;
+        height: 75vh;
+
+        .text-player {
+            .text {
+                .text-2 {
+                    margin-top: 30px;
+                }
+
+                .text-3 {
+                    margin-top: 30px;
+                }
+
+                .button {
+                    margin-top: 30px;
+                }
+            }
+
+            .player {
+                padding-top: 30px;
+
+                img {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        padding-top: 25px;
+        height: 72vh;
+
+        .text-player {
+            .text {
+                .text-2 {
+                    margin-top: 25px;
+                }
+
+                .text-3 {
+                    margin-top: 25px;
+                }
+
+                .button {
+                    margin-top: 25px;
+                }
+            }
+
+            .player {
+                padding-top: 25px;
+
+                img {
+                    width: 90%;
+                }
+            }
+        }
+    }
+}

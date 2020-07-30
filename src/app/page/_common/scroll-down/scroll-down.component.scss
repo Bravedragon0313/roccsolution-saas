@@ -1,0 +1,54 @@
+@import "../../../../assets/scss/custom/variables";
+
+.section {
+    justify-content: center;
+
+    .panel {
+        .arrow {
+            text-decoration: none;
+            cursor: pointer;
+            font-size: 50px;
+            color: $blue-6;
+        }
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        .panel {
+            .arrow {
+                font-size: 45px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        .panel {
+            .arrow {
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        .panel {
+            .arrow {
+                font-size: 35px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        .panel {
+            .arrow {
+                font-size: 30px;
+            }
+        }
+    }
+}

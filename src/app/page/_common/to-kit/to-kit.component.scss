@@ -1,0 +1,116 @@
+@import "../../../../assets/scss/custom/variables";
+
+.section {
+    .panel {
+        width: 1080px;
+        height: 290px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -150px;
+        z-index: 1;
+        background-color: $blue-4;
+        box-shadow: 20px 30px 60px 0px rgba(0, 0, 0, 0.3);
+        text-align: center;
+
+        .text {
+            margin-top: 75px;
+            color: $white;
+            font-weight: bold;
+        }
+
+        .button {
+            margin-top: 50px;
+
+            input {
+                background-color: $white;
+                width: 240px;
+                height: 60px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        .panel {
+            height: 230px;
+
+            .text {
+                margin-top: 60px;
+            }
+
+            .button {
+                margin-top: 40px;
+
+                input {
+                    width: 192px;
+                    height: 48px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        .panel {
+            height: 200px;
+
+            .text {
+                margin-top: 50px;
+            }
+
+            .button {
+                margin-top: 35px;
+
+                input {
+                    width: 168px;
+                    height: 42px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        .panel {
+            height: 175px;
+
+            .text {
+                margin-top: 45px;
+            }
+
+            .button {
+                margin-top: 30px;
+
+                input {
+                    width: 144px;
+                    height: 36px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        .panel {
+            height: 180px;
+
+            .text {
+                margin-top: 35px;
+            }
+
+            .button {
+                margin-top: 25px;
+
+                input {
+                    width: 120px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}

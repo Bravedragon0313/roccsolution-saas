@@ -1,0 +1,158 @@
+.section {
+    margin-top: 55px;
+
+    .cookie-list {
+        .cookie {
+            display: grid;
+
+            span:first-child {
+                font-weight: bold;
+            }
+
+            span {
+                margin-top: 20px;
+            }
+
+            .list {
+                margin-top: 20px;
+                padding-left: 30px;
+
+                .item {
+                    display: -webkit-box;
+                }
+            }
+
+            .explorer-list {
+                .explorer {
+                    margin-top: 20px;
+                    display: flex;
+
+                    .name {
+                        width: 180px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        margin-top: 44px;
+
+        .cookie-list {
+            .cookie {
+                span {
+                    margin-top: 16px;
+                }
+
+                .list {
+                    margin-top: 16px;
+                    padding-left: 24px;
+                }
+
+                .explorer-list {
+                    .explorer {
+                        margin-top: 16px;
+
+                        .name {
+                            width: 144px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        margin-top: 39px;
+
+        .cookie-list {
+            .cookie {
+                span {
+                    margin-top: 14px;
+                }
+
+                .list {
+                    margin-top: 14px;
+                    padding-left: 21px;
+                }
+
+                .explorer-list {
+                    .explorer {
+                        margin-top: 14px;
+                        display: block;
+
+                        .name {
+                            width: 100%;
+                        }
+
+                        .url {
+                            margin-top: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        margin-top: 33px;
+
+        .cookie-list {
+            .cookie {
+                span {
+                    margin-top: 12px;
+                }
+
+                .list {
+                    margin-top: 12px;
+                    padding-left: 18px;
+                }
+
+                .explorer-list {
+                    .explorer {
+                        margin-top: 12px;
+
+                        .url {
+                            margin-top: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        margin-top: 28px;
+
+        .cookie-list {
+            .cookie {
+                span {
+                    margin-top: 10px;
+                }
+
+                .list {
+                    margin-top: 10px;
+                    padding-left: 15px;
+                }
+
+                .explorer-list {
+                    .explorer {
+                        margin-top: 10px;
+
+                        .url {
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

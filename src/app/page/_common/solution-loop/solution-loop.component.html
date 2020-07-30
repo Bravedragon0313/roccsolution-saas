@@ -1,0 +1,39 @@
+<div class="row section">
+
+    <div class="panel">
+
+        <div class="row text-1 text-sm">
+
+            <span (click)="loadPage()">
+                {{modules[index]['name']}}
+            </span>
+
+        </div>
+
+        <div class="row arrow">
+
+            <div class="left" (click)="loadPrev()">
+
+                〈
+
+            </div>
+
+            <div class="right" (click)="loadNxt()">
+
+                〉
+
+            </div>
+
+        </div>
+
+        <div class="row text-2 text-sm">
+
+            <span (click)="loadPage()">
+                {{modules[index]['title']}}
+            </span>
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,286 @@
+@import "../../../../../../assets/scss/custom/variables";
+
+.section {
+    margin-top: 55px;
+    min-height: 800px;
+
+    .text-image {
+        min-height: 400px;
+        background-image: url("assets/img/module-13.png");
+        background-size: 100% 100%;
+
+        .text {
+            padding-right: 100px;
+            padding-bottom: 100px;
+
+            .title {
+                font-weight: bold;
+            }
+
+            .description {
+                margin-top: 50px;
+            }
+        }
+
+        .image {
+            text-align: center;
+
+            img {
+                width: 80%;
+            }
+        }
+    }
+
+    .option {
+        min-height: 400px;
+        color: $white;
+        background-color: $blue-1;
+        margin-left: -$section-pl;
+        margin-right: -$section-pr;
+        padding-left: $section-pl;
+        padding-right: $section-pr;
+        padding-bottom: 100px;
+
+        .sentence {
+            font-weight: bold;
+            margin-top: 60px;
+        }
+
+        .option-list {
+            margin-top: 40px;
+
+            .option-item-l,
+            .option-item-r {
+                margin-top: 15px;
+
+                span {
+                    display: table-cell;
+                }
+            }
+
+            .option-item-l {
+                margin-right: 100px;
+            }
+
+            .option-item-r {
+                margin-right: 100px;
+            }
+        }
+    }
+}
+
+/* non-default media query*/
+@media only screen and (max-width: 1899px) {
+    .section {
+        .option {
+            margin-left: -$section-pl-1900;
+            margin-right: -$section-pr-1900;
+            padding-left: $section-pl-1900;
+            padding-right: $section-pr-1900;
+
+            .option-list {
+                .option-item-l {
+                    margin-right: 50px;
+                }
+
+                .option-item-r {
+                    margin-right: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+    .section {
+        .text-image {
+            .text {
+                padding-right: 50px;
+            }
+        }
+
+        .option {
+            margin-left: -$section-pl-1600;
+            margin-right: -$section-pr-1600;
+            padding-left: $section-pl-1600;
+            padding-right: $section-pr-1600;
+        }
+    }
+}
+/* non-default media query*/
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        margin-top: 44px;
+
+        .text-image {
+            .text {
+                padding-right: 30px;
+                padding-bottom: 80px;
+
+                .description {
+                    margin-top: 40px;
+                }
+            }
+        }
+
+        .option {
+            margin-left: -$section-pl-1200;
+            margin-right: -$section-pr-1200;
+            padding-left: $section-pl-1200;
+            padding-right: $section-pr-1200;
+            padding-bottom: 80px;
+
+            .sentence {
+                margin-top: 48px;
+            }
+
+            .option-list {
+                margin-top: 32px;
+
+                .option-item-l,
+                .option-item-r {
+                    margin-top: 12px;
+                    margin-right: 40px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        margin-top: 38px;
+
+        .text-image {
+            .text {
+                padding-right: 0px;
+                padding-bottom: 70px;
+
+                .description {
+                    margin-top: 35px;
+                }
+            }
+
+            .image {
+                padding-bottom: 70px;
+
+                img {
+                    width: 70%;
+                }
+            }
+        }
+
+        .option {
+            margin-left: -$section-pl-992;
+            margin-right: -$section-pr-992;
+            padding-left: $section-pl-992;
+            padding-right: $section-pr-992;
+            padding-bottom: 70px;
+
+            .sentence {
+                margin-top: 42px;
+            }
+
+            .option-list {
+                margin-top: 28px;
+
+                .option-item-l,
+                .option-item-r {
+                    margin-top: 11px;
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        margin-top: 33px;
+
+        .text-image {
+            .text {
+                padding-bottom: 60px;
+
+                .description {
+                    margin-top: 30px;
+                }
+            }
+
+            .image {
+                padding-bottom: 60px;
+
+                img {
+                    width: 80%;
+                }
+            }
+        }
+
+        .option {
+            margin-left: -$section-pl-768;
+            margin-right: -$section-pr-768;
+            padding-left: $section-pl-768;
+            padding-right: $section-pr-768;
+            padding-bottom: 60px;
+
+            .sentence {
+                margin-top: 36px;
+            }
+
+            .option-list {
+                margin-top: 24px;
+
+                .option-item-l,
+                .option-item-r {
+                    margin-top: 9px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        margin-top: 28px;
+
+        .text-image {
+            .text {
+                padding-bottom: 50px;
+
+                .description {
+                    margin-top: 25px;
+                }
+            }
+
+            .image {
+                padding-bottom: 50px;
+
+                img {
+                    width: 90%;
+                }
+            }
+        }
+
+        .option {
+            margin-left: -$section-pl-576;
+            margin-right: -$section-pr-576;
+            padding-left: $section-pl-576;
+            padding-right: $section-pr-576;
+            padding-bottom: 50px;
+
+            .sentence {
+                margin-top: 30px;
+            }
+
+            .option-list {
+                margin-top: 20px;
+
+                .option-item-l,
+                .option-item-r {
+                    margin-top: 8px;
+                }
+            }
+        }
+    }
+}

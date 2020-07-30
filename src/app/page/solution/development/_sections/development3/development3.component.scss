@@ -1,0 +1,38 @@
+@import "../../../../../../assets/scss/custom/variables";
+
+.section {
+    margin-top: 160px;
+    justify-content: center;
+
+    .panel {
+        text-align: center;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        margin-top: 128px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        margin-top: 112px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        margin-top: 96px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        margin-top: 80px;
+    }
+}

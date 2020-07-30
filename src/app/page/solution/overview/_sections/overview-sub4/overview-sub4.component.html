@@ -1,0 +1,144 @@
+<div class="row section full">
+
+    <div class="col-12 panel">
+
+        <div class="back-image">
+
+        </div>
+
+        <div class="box">
+
+            <form [formGroup]="contactForm">
+
+                <div class="input-email text-sm">
+
+                    <input type="email" placeholder="Ihre E-Mail Adresse" formControlName="email">
+
+                    <div class="error" *ngIf="submitted && contactF.email.errors">
+                        <span *ngIf="contactF.email.errors.required">
+                            Ihre E-Mail Adresse ist erforderlich.
+                        </span>
+                        <span *ngIf="contactF.email.errors.email">
+                            Ihre E-Mail-Adresse muss eine gültige E-Mail-Adresse sein.
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-xl-6 col-lg-12 input-first-name text-sm">
+
+                        <input type="text" placeholder="Vorname" formControlName="firstName">
+
+                        <div class="error" *ngIf="submitted && contactF.firstName.errors">
+                            <span *ngIf="contactF.firstName.errors.required">Vorname ist erforderlich.</span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-6 col-lg-12 input-last-name text-sm">
+
+                        <input type="text" placeholder="Nachname" formControlName="lastName">
+
+                        <div class="error" *ngIf="submitted && contactF.lastName.errors">
+                            <span *ngIf="contactF.lastName.errors.required">Nachname ist erforderlich.</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-xl-6 col-lg-12 input-company text-sm">
+
+                        <input type="text" placeholder="Unternehmen" formControlName="company">
+
+                        <div class="error" *ngIf="submitted && contactF.company.errors">
+                            <span *ngIf="contactF.company.errors.required">Unternehmen ist erforderlich.</span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-6 col-lg-12 input-position text-sm">
+
+                        <input type="text" placeholder="Ihre Position" formControlName="position">
+
+                        <div class="error" *ngIf="submitted && contactF.position.errors">
+                            <span *ngIf="contactF.position.errors.required">Ihre Position ist erforderlich.</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="input-message text-sm">
+
+                    <textarea placeholder="Ihre Nachricht" formControlName="message"></textarea>
+
+                    <div class="error" *ngIf="submitted && contactF.message.errors">
+                        <span *ngIf="contactF.message.errors.required">Ihre Nachricht ist erforderlich.</span>
+                    </div>
+
+                </div>
+
+                <div class="text text-md">
+
+                    <div class="line-button" (click)="send()">Absenden</div>
+
+                </div>
+
+                <div class="row contact-info">
+
+                    <div class="col-sm-4 col-12 address text-sm">
+
+                        <div class="text-1">
+                            <i class="fa fa-map-marker"></i>
+                            &nbsp;Adresse
+                        </div>
+
+                        <div class="text-2">
+                            <a href="https://www.google.com/maps/place/Ha%C3%9Flinghauser+Str.+156,+58285+Gevelsberg,+Germany/@51.3198775,7.3095696,17z/data=!3m1!4b1!4m5!3m4!1s0x47b925d7131d0a55:0xf9100fa4b2de4535!8m2!3d51.3198775!4d7.3117583"
+                                target="_blank">
+                                Haßlinghauser Str. 156<br>
+                                58285 Gevelsberg
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-4 col-12 email text-sm">
+
+                        <div class="text-1">
+                            <i class="fa fa-envelope-o"></i>
+                            &nbsp;Email
+                        </div>
+
+                        <div class="text-2">
+                            <a href="mailto:mail@roccsolution.com">mail@roccsolution.com</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-4 col-12 phone text-sm">
+
+                        <div class="text-1">
+                            <i class="fa fa-phone"></i>
+                            &nbsp;Telefon
+                        </div>
+
+                        <div class="text-2">
+                            <a href="tel:+492332 9537870">+49 2332 9537870</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,61 @@
+.section {
+    margin-top: 30px;
+
+    .panel {
+        .text {
+            margin-top: 20px;
+
+            span {
+                display: block;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        margin-top: 24px;
+
+        .panel {
+            .text {
+                margin-top: 16px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        margin-top: 21px;
+
+        .panel {
+            .text {
+                margin-top: 14px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        margin-top: 18px;
+
+        .panel {
+            .text {
+                margin-top: 12px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        margin-top: 15px;
+
+        .panel {
+            .text {
+                margin-top: 10px;
+            }
+        }
+    }
+}

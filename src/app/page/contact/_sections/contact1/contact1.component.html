@@ -1,0 +1,96 @@
+<div class="row section">
+
+    <div class="panel">
+
+        <form [formGroup]="contactForm" (ngSubmit)="send()">
+
+            <div class="text text-md">
+
+                Wir freuen uns auf Ihre Kontaktaufnahme
+
+            </div>
+
+            <div class="input-email text-sm">
+
+                <input type="email" placeholder="Ihre E-Mail Adresse" formControlName="email">
+
+                <div class="error" *ngIf="submitted && contactF.email.errors">
+                    <span *ngIf="contactF.email.errors.required">
+                        Ihre E-Mail Adresse ist erforderlich.
+                    </span>
+                    <span *ngIf="contactF.email.errors.email">
+                        Ihre E-Mail-Adresse muss eine gültige E-Mail-Adresse sein.
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-xl-6 col-12 input-first-name text-sm">
+
+                    <input type="text" placeholder="Vorname" formControlName="firstName">
+
+                    <div class="error" *ngIf="submitted && contactF.firstName.errors">
+                        <span *ngIf="contactF.firstName.errors.required">Vorname ist erforderlich.</span>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-6 col-12 input-last-name text-sm">
+
+                    <input type="text" placeholder="Nachname" formControlName="lastName">
+
+                    <div class="error" *ngIf="submitted && contactF.lastName.errors">
+                        <span *ngIf="contactF.lastName.errors.required">Nachname ist erforderlich.</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-xl-6 col-12 input-company text-sm">
+
+                    <input type="text" placeholder="Unternehmen" formControlName="company">
+
+                    <div class="error" *ngIf="submitted && contactF.company.errors">
+                        <span *ngIf="contactF.company.errors.required">Unternehmen ist erforderlich.</span>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-6 col-12 input-position text-sm">
+
+                    <input type="text" placeholder="Ihre Position" formControlName="position">
+
+                    <div class="error" *ngIf="submitted && contactF.position.errors">
+                        <span *ngIf="contactF.position.errors.required">Ihre Position ist erforderlich.</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="input-message text-sm">
+
+                <textarea placeholder="Ihre Nachricht" formControlName="message"></textarea>
+
+                <div class="error" *ngIf="submitted && contactF.message.errors">
+                    <span *ngIf="contactF.message.errors.required">Ihre Nachricht ist erforderlich.</span>
+                </div>
+
+            </div>
+
+            <div class="button-send text-sm">
+
+                <input type="submit" value="Senden">
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>

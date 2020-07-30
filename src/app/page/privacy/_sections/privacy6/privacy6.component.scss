@@ -1,0 +1,122 @@
+.section {
+    margin-top: 55px;
+
+    .text {
+        margin-top: 20px;
+    }
+
+    .foreign-list {
+        .foreign {
+            display: grid;
+
+            span:first-child {
+                font-weight: bold;
+            }
+
+            span {
+                margin-top: 20px;
+            }
+
+            .list {
+                margin-top: 20px;
+                padding-left: 30px;
+
+                .item {
+                    display: -webkit-box;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        margin-top: 44px;
+
+        .text {
+            margin-top: 16px;
+        }
+
+        .foreign-list {
+            .foreign {
+                span {
+                    margin-top: 16px;
+                }
+
+                .list {
+                    margin-top: 16px;
+                    padding-left: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        margin-top: 39px;
+
+        .text {
+            margin-top: 14px;
+        }
+
+        .foreign-list {
+            .foreign {
+                span {
+                    margin-top: 14px;
+                }
+
+                .list {
+                    margin-top: 14px;
+                    padding-left: 21px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        margin-top: 33px;
+
+        .text {
+            margin-top: 12px;
+        }
+
+        .foreign-list {
+            .foreign {
+                span {
+                    margin-top: 12px;
+                }
+
+                .list {
+                    margin-top: 12px;
+                    padding-left: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        margin-top: 28px;
+
+        .text {
+            margin-top: 10px;
+        }
+
+        .foreign-list {
+            .foreign {
+                span {
+                    margin-top: 10px;
+                }
+
+                .list {
+                    margin-top: 10px;
+                    padding-left: 15px;
+                }
+            }
+        }
+    }
+}

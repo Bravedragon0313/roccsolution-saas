@@ -1,0 +1,132 @@
+@import "../../../../../../assets/scss/custom/variables";
+
+.section {
+    margin-top: 35px;
+
+    .text {
+        justify-content: center;
+        font-weight: bold;
+
+        span {
+            text-align: center;
+        }
+    }
+
+    .content-panel-above,
+    .content-panel-below {
+        .left,
+        .middle,
+        .right {
+            padding-right: 100px;
+
+            span:first-child {
+                color: $blue-6;
+            }
+
+            span {
+                display: table-cell;
+            }
+        }
+    }
+
+    .content-panel-above {
+        margin-top: 120px;
+    }
+
+    .content-panel-below {
+        margin-top: 30px;
+    }
+}
+
+/* non-default media query*/
+@media only screen and (max-width: 1699px) {
+    .section {
+        .content-panel-above,
+        .content-panel-below {
+            .left,
+            .middle,
+            .right {
+                padding-right: 60px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1499px) {
+    .section {
+        .content-panel-above,
+        .content-panel-below {
+            .left,
+            .middle,
+            .right {
+                padding-right: 20px;
+            }
+        }
+    }
+}
+/* non-default media query*/
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        margin-top: 28px;
+
+        .content-panel-above {
+            margin-top: 96px;
+        }
+
+        .content-panel-below {
+            margin-top: 24px;
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        margin-top: 25px;
+
+        .content-panel-above,
+        .content-panel-below {
+            .left,
+            .middle,
+            .right {
+                padding-right: 0px;
+            }
+        }
+
+        .content-panel-above {
+            margin-top: 84px;
+        }
+
+        .content-panel-below {
+            margin-top: 21px;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        margin-top: 21px;
+
+        .content-panel-above {
+            margin-top: 72px;
+        }
+
+        .content-panel-below {
+            margin-top: 18px;
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        margin-top: 18px;
+
+        .content-panel-above {
+            margin-top: 60px;
+        }
+
+        .content-panel-below {
+            margin-top: 15px;
+        }
+    }
+}

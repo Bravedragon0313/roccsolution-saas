@@ -1,0 +1,194 @@
+@import "../../../../../../assets/scss/custom/variables";
+
+.section {
+    height: 1180px;
+    margin-top: -60px;
+
+    .panel {
+        .back-image {
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            background-position-x: -4290px;
+            background-size: auto 100%;
+            position: relative;
+        }
+
+        .box {
+            width: 100%;
+            height: 450px;
+            color: $white;
+            position: absolute;
+            bottom: 0px;
+            text-align: center;
+            background-color: $blue-1;
+            opacity: 0.87;
+
+            .text-1 {
+                margin-top: 30px;
+                font-size: 120px;
+                font-weight: bold;
+            }
+
+            .text-2 {
+                margin-top: -30px;
+                font-weight: bold;
+            }
+
+            .image-text {
+                margin-top: 50px;
+
+                .image {
+                    text-align: right;
+                }
+
+                .text {
+                    text-align: left;
+                    align-self: flex-end;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    font-family: lato;
+                    font-weight: lighter;
+                }
+            }
+        }
+    }
+}
+
+/* non-default media query*/
+@media only screen and (max-width: 1899px) {
+    .section {
+        .panel {
+            .box {
+                .text-1 {
+                    font-size: 100px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+    .section {
+        .panel {
+            .box {
+                .text-1 {
+                    font-size: 90px;
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+}
+/* non-default media query*/
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        .panel {
+            .box {
+                height: 400px;
+
+                .text-1 {
+                    margin-top: 24px;
+                    font-size: 84px;
+                }
+
+                .text-2 {
+                    margin-top: -24px;
+                }
+
+                .image-text {
+                    margin-top: 40px;
+
+                    .image {
+                        text-align: center;
+                    }
+
+                    .text {
+                        padding-left: 10px;
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        height: 360px;
+
+        .panel {
+            .back-image {
+                background-position-x: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .box {
+                height: 280px;
+
+                .text-1 {
+                    margin-top: 10px;
+                    font-size: 72px;
+                }
+
+                .text-2 {
+                    margin-top: -21px;
+                }
+
+                .image-text {
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        margin-top: -150px;
+
+        .panel {
+            .box {
+                height: 220px;
+
+                .text-1 {
+                    margin-top: 0px;
+                    font-size: 64px;
+                }
+
+                .text-2 {
+                    margin-top: -15px;
+                }
+
+                .image-text {
+                    margin-top: -30px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        .panel {
+            .box {
+                height: 220px;
+
+                .text-1 {
+                    margin-top: 15px;
+                    font-size: 60px;
+                }
+
+                .text-2 {
+                    margin-top: -10px;
+                }
+
+                .image-text {
+                    margin-top: -60px;
+                }
+            }
+        }
+    }
+}

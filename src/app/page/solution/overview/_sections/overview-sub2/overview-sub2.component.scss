@@ -1,0 +1,241 @@
+@import "../../../../../../assets/scss/custom/variables";
+
+.section {
+    .panel {
+        .back-image {
+            z-index: -1;
+            width: 100%;
+            height: 1190px;
+            margin-top: -70px;
+            background-image: url("assets/img/overview-14.png");
+            background-size: cover;
+            position: relative;
+        }
+
+        .box {
+            position: absolute;
+            top: 0px;
+            padding-left: 200px;
+            padding-right: 200px;
+            width: 100%;
+
+            .text-1 {
+                margin-top: 160px;
+                font-size: 50px;
+                color: $black;
+            }
+
+            .checkbox-group {
+                margin-top: 140px;
+
+                .form-check {
+                    margin-bottom: 20px;
+
+                    .form-check-input {
+                        margin-top: 0px;
+                        width: 30px;
+                        height: 30px;
+                    }
+
+                    .form-check-label {
+                        margin-left: 30px;
+                    }
+                }
+            }
+
+            .text-2 {
+                margin-top: 200px;
+
+                .line-button {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+    }
+}
+
+/* non-default media query*/
+@media only screen and (max-width: 1899px) {
+    .section {
+        .panel {
+            .box {
+                padding-left: 150px;
+                padding-right: 150px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+    .section {
+        .panel {
+            .box {
+                padding-left: 120px;
+                padding-right: 120px;
+            }
+        }
+    }
+}
+/* non-default media query*/
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        .panel {
+            .box {
+                padding-left: 90px;
+                padding-right: 90px;
+
+                .text-1 {
+                    margin-top: 128px;
+                    font-size: 40px;
+                }
+
+                .checkbox-group {
+                    margin-top: 112px;
+
+                    .form-check {
+                        margin-bottom: 16px;
+
+                        .form-check-input {
+                            width: 24px;
+                            height: 24px;
+                        }
+
+                        .form-check-label {
+                            margin-left: 24px;
+                        }
+                    }
+                }
+
+                .text-2 {
+                    margin-top: 160px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        .panel {
+            .back-image {
+                height: 800px;
+                margin-top: 0px;
+            }
+
+            .box {
+                padding-left: 70px;
+                padding-right: 70px;
+
+                .text-1 {
+                    margin-top: 112px;
+                    font-size: 35px;
+                }
+
+                .checkbox-group {
+                    margin-top: 98px;
+
+                    .form-check {
+                        margin-bottom: 14px;
+
+                        .form-check-input {
+                            width: 21px;
+                            height: 21px;
+                        }
+
+                        .form-check-label {
+                            margin-left: 21px;
+                        }
+                    }
+                }
+
+                .text-2 {
+                    margin-top: 140px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        .panel {
+            .back-image {
+                height: 720px;
+            }
+
+            .box {
+                padding-left: 50px;
+                padding-right: 50px;
+
+                .text-1 {
+                    margin-top: 96px;
+                    font-size: 30px;
+                }
+
+                .checkbox-group {
+                    margin-top: 84px;
+
+                    .form-check {
+                        margin-bottom: 12px;
+
+                        .form-check-input {
+                            width: 18px;
+                            height: 18px;
+                        }
+
+                        .form-check-label {
+                            margin-left: 18px;
+                        }
+                    }
+                }
+
+                .text-2 {
+                    margin-top: 120px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        .panel {
+            .back-image {
+                height: 660px;
+            }
+
+            .box {
+                padding-left: 20px;
+                padding-right: 20px;
+
+                .text-1 {
+                    margin-top: 80px;
+                    font-size: 25px;
+                }
+
+                .checkbox-group {
+                    margin-top: 70px;
+
+                    .form-check {
+                        margin-bottom: 10px;
+
+                        .form-check-input {
+                            width: 15px;
+                            height: 15px;
+                        }
+
+                        .form-check-label {
+                            margin-left: 15px;
+                        }
+                    }
+                }
+
+                .text-2 {
+                    margin-top: 100px;
+                }
+            }
+        }
+    }
+}

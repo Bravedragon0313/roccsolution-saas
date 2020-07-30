@@ -1,0 +1,56 @@
+@import "../../../../assets/scss/custom/variables";
+
+.section {
+    justify-content: center;
+
+    .panel {
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        .panel {
+            img {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        .panel {
+            img {
+                width: 70px;
+                height: 70px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        .panel {
+            img {
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        .panel {
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}

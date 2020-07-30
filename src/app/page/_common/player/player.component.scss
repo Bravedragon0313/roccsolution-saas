@@ -1,0 +1,12 @@
+@import "../../../../assets/scss/custom/variables";
+
+.section {
+    .panel {
+        width: 100vw;
+
+        video {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

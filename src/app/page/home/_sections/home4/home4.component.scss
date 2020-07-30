@@ -1,0 +1,231 @@
+@import "../../../../../assets/scss/custom/variables";
+
+.section {
+    margin-top: 80px;
+
+    .left-panel {
+        text-align: center;
+
+        img {
+            max-width: 105%;
+            margin-top: 15px;
+            margin-left: -50px;
+        }
+    }
+
+    .right-panel {
+        padding-left: 150px;
+
+        .text-1 {
+            font-weight: bold;
+
+            .line {
+                margin-right: 10px;
+                width: 120px;
+                height: 30px;
+                border-bottom: 5px solid $blue-1;
+                display: inline-block;
+            }
+
+            .text {
+                display: inline;
+            }
+        }
+
+        .text-2 {
+            margin-top: 50px;
+        }
+    }
+}
+
+/* non-default media query*/
+@media only screen and (max-width: 1899px) {
+    .section {
+        .left-panel {
+            img {
+                max-width: 85%;
+            }
+        }
+
+        .right-panel {
+            .text-1 {
+                .line {
+                    height: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1699px) {
+    .section {
+        .left-panel {
+            img {
+                max-width: 100%;
+            }
+        }
+
+        .right-panel {
+            padding-left: 100px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1499px) {
+    .section {
+        .left-panel {
+            img {
+                max-width: 105%;
+            }
+        }
+
+        .right-panel {
+            padding-left: 60px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .section {
+        .left-panel {
+            img {
+                max-width: 108%;
+            }
+        }
+
+        .right-panel {
+            padding-left: 40px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1299px) {
+    .section {
+        .left-panel {
+            img {
+                margin-top: 60px;
+                max-width: 110%;
+            }
+        }
+    }
+}
+/* non-default media query*/
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        margin-top: 60px;
+
+        .left-panel {
+            img {
+                margin-top: 0px;
+                margin-left: 0px;
+                max-width: 60%;
+            }
+        }
+
+        .right-panel {
+            margin-top: 60px;
+            padding-left: 0px;
+
+            .text-1 {
+                .line {
+                    margin-right: 8px;
+                    width: 100px;
+                    height: 20px;
+                    border-bottom-width: 4px;
+                }
+            }
+
+            .text-2 {
+                margin-top: 40px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        margin-top: 60px;
+
+        .left-panel {
+            img {
+                max-width: 70%;
+            }
+        }
+
+        .right-panel {
+            margin-top: 60px;
+
+            .text-1 {
+                .line {
+                    margin-right: 7px;
+                    width: 180px;
+                    height: 20px;
+                    border-bottom-width: 3.5px;
+                }
+            }
+
+            .text-2 {
+                margin-top: 35px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        margin-top: 50px;
+
+        .left-panel {
+            img {
+                max-width: 80%;
+            }
+        }
+
+        .right-panel {
+            margin-top: 50px;
+
+            .text-1 {
+                .line {
+                    margin-right: 6px;
+                    width: 70px;
+                    height: 20px;
+                    border-bottom-width: 3px;
+                }
+            }
+
+            .text-2 {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        margin-top: 40px;
+
+        .left-panel {
+            img {
+                max-width: 90%;
+            }
+        }
+
+        .right-panel {
+            margin-top: 40px;
+
+            .text-1 {
+                .line {
+                    margin-right: 5px;
+                    width: 60px;
+                    height: 20px;
+                    border-bottom-width: 2.5px;
+                }
+            }
+
+            .text-2 {
+                margin-top: 25px;
+            }
+        }
+    }
+}

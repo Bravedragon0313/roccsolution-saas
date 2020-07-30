@@ -1,0 +1,229 @@
+@import "../../../../../../assets/scss/custom/variables";
+
+.section {
+    margin-top: 160px;
+    padding-top: 50px;
+    height: 160px;
+    background-color: $blue-1;
+    color: $white;
+
+    .panel-1 {
+        padding-right: 120px;
+    }
+
+    .panel-1,
+    .panel-2 {
+        .text-1 {
+            font-size: 30px;
+            margin-right: auto;
+            margin-top: 15px;
+        }
+
+        .text-2 {
+            font-size: 50px;
+        }
+    }
+
+    .panel-3 {
+        padding-left: 80px;
+
+        .text {
+            font-size: 30px;
+            margin-left: auto;
+            margin-top: 15px;
+        }
+    }
+}
+
+/* non-default media query*/
+@media only screen and (max-width: 1899px) {
+    .section {
+        .panel-1 {
+            padding-right: 150px;
+        }
+
+        .panel-1,
+        .panel-2 {
+            .text-1 {
+                font-size: 24px;
+            }
+
+            .text-2 {
+                font-size: 45px;
+            }
+        }
+
+        .panel-3 {
+            padding-left: 60px;
+
+            .text {
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1499px) {
+    .section {
+        .panel-1 {
+            padding-right: 120px;
+        }
+
+        .panel-1,
+        .panel-2 {
+            .text-1 {
+                font-size: 20px;
+            }
+
+            .text-2 {
+                font-size: 40px;
+            }
+        }
+
+        .panel-3 {
+            padding-left: 80px;
+
+            .text {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1299px) {
+    .section {
+        .panel-1 {
+            padding-right: 90px;
+        }
+
+        .panel-1,
+        .panel-2 {
+            .text-1 {
+                font-size: 18px;
+            }
+
+            .text-2 {
+                font-size: 36px;
+            }
+        }
+
+        .panel-3 {
+            padding-left: 70px;
+
+            .text {
+                font-size: 18px;
+            }
+        }
+    }
+}
+/* non-default media query*/
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        margin-top: 128px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 250px;
+        text-align: center;
+
+        .panel-1 {
+            padding-right: 0px;
+        }
+
+        .panel-1,
+        .panel-2 {
+            display: block;
+
+            .text-1 {
+                margin-top: 0px;
+            }
+        }
+
+        .panel-3 {
+            padding-left: 0px;
+
+            .text {
+                margin-top: 0px;
+                margin-right: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        margin-top: 112px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 240px;
+
+        .panel-1,
+        .panel-2 {
+            .text-1 {
+                font-size: 16px;
+            }
+
+            .text-2 {
+                font-size: 32px;
+            }
+        }
+
+        .panel-3 {
+            .text {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        margin-top: 96px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 180px;
+
+        .panel-1,
+        .panel-2 {
+            .text-1 {
+                font-size: 14px;
+            }
+
+            .text-2 {
+                font-size: 24px;
+            }
+        }
+
+        .panel-3 {
+            .text {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        margin-top: 80px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 140px;
+
+        .panel-1,
+        .panel-2 {
+            .text-1 {
+                font-size: 12px;
+            }
+
+            .text-2 {
+                font-size: 20px;
+            }
+        }
+
+        .panel-3 {
+            .text {
+                font-size: 12px;
+            }
+        }
+    }
+}

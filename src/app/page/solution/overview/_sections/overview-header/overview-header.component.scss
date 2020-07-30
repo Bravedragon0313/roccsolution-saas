@@ -1,0 +1,254 @@
+@import "../../../../../../assets/scss/custom/variables";
+
+.section {
+    height: 750px;
+    padding-top: 40px;
+    padding-bottom: 170px;
+    background-image: url("assets/img/overview-1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+
+    .panel-1 {
+        .text {
+            margin-top: 200px;
+            font-weight: bold;
+        }
+    }
+
+    .panel-2,
+    .panel-3,
+    .panel-4 {
+        position: relative;
+
+        .group {
+            position: absolute;
+            bottom: 0px;
+            text-align: center;
+
+            .image {
+                img {
+                    width: 100%;
+                }
+            }
+
+            .text-1 {
+                margin-top: 20px;
+                font-weight: bold;
+            }
+
+            .text-2 {
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 18px;
+                width: 200px;
+            }
+        }
+    }
+}
+
+/* non-default media query*/
+@media only screen and (max-width: 1899px) {
+    .section {
+        .panel-1 {
+            .text {
+                margin-top: 235px;
+            }
+        }
+
+        .panel-2,
+        .panel-3,
+        .panel-4 {
+            .group {
+                .text-2 {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+    .section {
+        height: 700px;
+        background-size: auto 100%;
+
+        .panel-1 {
+            .text {
+                margin-top: 210px;
+            }
+        }
+
+        .panel-2,
+        .panel-3,
+        .panel-4 {
+            .group {
+                .image {
+                    img {
+                        width: 90%;
+                    }
+                }
+
+                .text-2 {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1299px) {
+    .section {
+        height: 650px;
+
+        .panel-1 {
+            .text {
+                margin-top: 170px;
+            }
+        }
+
+        .panel-2,
+        .panel-3,
+        .panel-4 {
+            .group {
+                .text-1 {
+                    margin-left: -50px;
+                    margin-right: -50px;
+                }
+            }
+        }
+    }
+}
+/* non-default media query*/
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        padding-top: 32px;
+        height: 600px;
+
+        .panel-1 {
+            .text {
+                margin-top: 170px;
+            }
+        }
+
+        .panel-2,
+        .panel-3,
+        .panel-4 {
+            .group {
+                .text-1 {
+                    margin-top: 16px;
+                }
+
+                .text-2 {
+                    margin-top: 16px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        padding-top: 28px;
+        height: 570px;
+
+        .panel-1 {
+            .text {
+                margin-top: 0px;
+            }
+        }
+
+        .panel-2,
+        .panel-3,
+        .panel-4 {
+            .group {
+                .image {
+                    img {
+                        width: 60%;
+                    }
+                }
+
+                .text-1 {
+                    margin-top: 14px;
+                }
+
+                .text-2 {
+                    margin-top: 14px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        padding-top: 24px;
+        height: auto;
+
+        .panel-1 {
+            .text {
+                text-align: center;
+            }
+        }
+
+        .panel-2,
+        .panel-3,
+        .panel-4 {
+            .group {
+                position: relative;
+                margin-top: 50px;
+
+                .image {
+                    img {
+                        width: 40%;
+                    }
+                }
+
+                .text-1 {
+                    margin-top: 12px;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                }
+
+                .text-2 {
+                    margin-top: 12px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        padding-top: 20px;
+
+        .panel-2,
+        .panel-3,
+        .panel-4 {
+            .group {
+                margin-top: 30px;
+
+                .image {
+                    img {
+                        width: 60%;
+                    }
+                }
+
+                .text-1 {
+                    margin-top: 10px;
+                }
+
+                .text-2 {
+                    margin-top: 10px;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}

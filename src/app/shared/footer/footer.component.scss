@@ -1,0 +1,70 @@
+@import "../../../assets/scss/custom/variables";
+
+.footer {
+    height: 160px;
+    background-color: #777777;
+    color: $white;
+
+    .logo {
+        margin-top: 85px;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .footer-nav {
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+
+        a {
+            color: unset;
+            text-decoration: none;
+        }
+    }
+
+    .copyright {
+        margin-top: 95px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .footer {
+        .footer-nav {
+            font-size: 15px;
+        }
+
+        .copyright {
+            font-size: 12px;
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .footer {
+        height: 250px;
+
+        .logo {
+            margin-top: 70px;
+        }
+
+        .footer-nav {
+            margin-top: 70px;
+            font-size: 14px;
+
+            ul {
+                li {
+                    display: table;
+                    padding: 0px;
+                    margin: 0px;
+                }
+            }
+        }
+
+        .copyright {
+            margin-top: 85px;
+            font-size: 12px;
+        }
+    }
+}

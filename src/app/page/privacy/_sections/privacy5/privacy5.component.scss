@@ -1,0 +1,103 @@
+.section {
+    margin-top: 55px;
+
+    .text-1,
+    .text-2,
+    .text-3 {
+        margin-top: 20px;
+    }
+
+    .newsletter-list {
+        .newsletter {
+            display: grid;
+
+            span:first-child {
+                font-weight: bold;
+            }
+
+            span {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        margin-top: 44px;
+
+        .text-1,
+        .text-2,
+        .text-3 {
+            margin-top: 16px;
+        }
+
+        .newsletter-list {
+            .newsletter {
+                span {
+                    margin-top: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        margin-top: 39px;
+
+        .text-1,
+        .text-2,
+        .text-3 {
+            margin-top: 14px;
+        }
+
+        .newsletter-list {
+            .newsletter {
+                span {
+                    margin-top: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        margin-top: 33px;
+
+        .text-1,
+        .text-2,
+        .text-3 {
+            margin-top: 12px;
+        }
+
+        .newsletter-list {
+            .newsletter {
+                span {
+                    margin-top: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        margin-top: 28px;
+
+        .text-1,
+        .text-2,
+        .text-3 {
+            margin-top: 10px;
+        }
+
+        .newsletter-list {
+            .newsletter {
+                span {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

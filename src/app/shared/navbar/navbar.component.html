@@ -1,0 +1,131 @@
+<nav class="navbar navbar-expand-lg nav-down section" color-on-scroll="500">
+    <div class="container-fluid">
+        <div class="navbar-translate">
+            <div class="navbar-header">
+                <a [routerLink]="['/home']"><img src="assets/img/_logo_header.png"></a>
+            </div>
+            <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse"
+                data-target="#navbarToggler" aria-expanded="false" aria-label="Toggle navigation"
+                (click)="sidebarToggle()">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto text-sm">
+                <li class="nav-item" [routerLinkActive]="['active']">
+                    <a class="nav-link" [routerLink]="['/home']">HOME</a>
+                </li>
+                <li class="nav-item" [routerLinkActive]="['active']">
+                    <a class="nav-link" [routerLink]="['/about-us']">ÜBER UNS</a>
+                </li>
+                <div ngbDropdown class="nav-item dropdown">
+                    <div class="nav-link dropdown-toggle" ngbDropdownToggle>
+                        <span>UNSERE LÖSUNGEN</span>
+                    </div>
+                    <div ngbDropdownMenu class="dropdown-menu dropdown-menu-right">
+                        <a ngbDropdownItem [routerLink]="['/solution/overview']">Übersicht</a>
+                        <a ngbDropdownItem [routerLink]="['/solution/core']">ROCC Core</a>
+                        <!--module-->
+                        <div class="module-desktop">
+                            <div ngbDropdown class="dropdown">
+                                <div class="dropdown-toggle" ngbDropdownToggle>
+                                    <span>Module</span>
+                                </div>
+                                <div ngbDropdownMenu class="dropdown-menu">
+                                    <a ngbDropdownItem [routerLink]="['/solution/module/1']">
+                                        Regionaler Marktplatz
+                                    </a>
+                                    <a ngbDropdownItem [routerLink]="['/solution/module/2']">
+                                        Online Shop
+                                    </a>
+                                    <a ngbDropdownItem [routerLink]="['/solution/module/3']">
+                                        Digitales Anbieterverzeichnis
+                                    </a>
+                                    <a ngbDropdownItem [routerLink]="['/solution/module/4']">
+                                        Lead Generator
+                                    </a>
+                                    <a ngbDropdownItem [routerLink]="['/solution/module/5']">
+                                        Info Portal
+                                    </a>
+                                    <a ngbDropdownItem [routerLink]="['/solution/module/6']">
+                                        Event Portal
+                                    </a>
+                                    <a ngbDropdownItem [routerLink]="['/solution/module/7']">
+                                        eLearning Portal
+                                    </a>
+                                    <a ngbDropdownItem [routerLink]="['/solution/module/8']">
+                                        Content Manager
+                                    </a>
+                                    <a ngbDropdownItem [routerLink]="['/solution/module/9']">
+                                        CRM
+                                    </a>
+                                    <a ngbDropdownItem [routerLink]="['/solution/module/10']">
+                                        Voice Commerce
+                                    </a>
+                                    <a ngbDropdownItem [routerLink]="['/solution/module/11']">
+                                        KI Google Dialogflow
+                                    </a>
+                                    <a ngbDropdownItem [routerLink]="['/solution/module/12']">
+                                        KI Amazon Rekognition
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--module-->
+                        <a ngbDropdownItem [routerLink]="['/solution/development']">Neuentwicklung</a>
+                    </div>
+                </div>
+                <!--module-->
+                <div ngbDropdown class="nav-item dropdown module-mobile">
+                    <div class="nav-link dropdown-toggle" ngbDropdownToggle>
+                        <span>Module</span>
+                    </div>
+                    <div ngbDropdownMenu class="dropdown-menu dropdown-menu-right">
+                        <a ngbDropdownItem [routerLink]="['/solution/module/1']">
+                            Regionaler Marktplatz
+                        </a>
+                        <a ngbDropdownItem [routerLink]="['/solution/module/2']">
+                            Online Shop
+                        </a>
+                        <a ngbDropdownItem [routerLink]="['/solution/module/3']">
+                            Digitales Anbieterverzeichnis
+                        </a>
+                        <a ngbDropdownItem [routerLink]="['/solution/module/4']">
+                            Lead Generator
+                        </a>
+                        <a ngbDropdownItem [routerLink]="['/solution/module/5']">
+                            Info Portal
+                        </a>
+                        <a ngbDropdownItem [routerLink]="['/solution/module/6']">
+                            Event Portal
+                        </a>
+                        <a ngbDropdownItem [routerLink]="['/solution/module/7']">
+                            eLearning Portal
+                        </a>
+                        <a ngbDropdownItem [routerLink]="['/solution/module/8']">
+                            Content Manager
+                        </a>
+                        <a ngbDropdownItem [routerLink]="['/solution/module/9']">
+                            CRM
+                        </a>
+                        <a ngbDropdownItem [routerLink]="['/solution/module/10']">
+                            Voice Commerce
+                        </a>
+                        <a ngbDropdownItem [routerLink]="['/solution/module/11']">
+                            KI Google Dialogflow
+                        </a>
+                        <a ngbDropdownItem [routerLink]="['/solution/module/12']">
+                            KI Amazon Rekognition
+                        </a>
+                    </div>
+                </div>
+                <!--module-->
+                <li class="nav-item" [routerLinkActive]="['active']">
+                    <a class="nav-link" [routerLink]="['/contact']">KONTAKT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

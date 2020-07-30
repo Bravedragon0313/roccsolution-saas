@@ -1,0 +1,181 @@
+@import "../../../../../assets/scss/custom/variables";
+
+.section {
+    margin-top: 55px;
+
+    .left-panel {
+        .text-1 {
+            font-weight: bold;
+        }
+
+        .text-2 {
+            margin-top: 40px;
+        }
+
+        .text-3 {
+            margin-top: 40px;
+        }
+
+        .counter {
+            margin-top: 80px;
+            text-align: center;
+
+            .counter-1,
+            .counter-2,
+            .counter-3 {
+                display: inline-block;
+
+                .content {
+                    width: fit-content;
+
+                    .number {
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: fit-content;
+                        color: $blue-4;
+                    }
+
+                    .text {
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: fit-content;
+                    }
+                }
+            }
+
+            .counter-1 {
+                float: left;
+            }
+
+            .counter-3 {
+                float: right;
+            }
+        }
+    }
+
+    .right-panel {
+        text-align: center;
+
+        canvas {
+            margin-top:20% !important;
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        margin-top: 44px;
+
+        .left-panel {
+            .text-2 {
+                margin-top: 32px;
+            }
+
+            .text-3 {
+                margin-top: 32px;
+            }
+
+            .counter {
+                margin-top: 64px;
+            }
+        }
+
+        .right-panel {
+            canvas {
+                margin-top:20% !important;
+                width: 60%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        margin-top: 39px;
+
+        .left-panel {
+            .text-2 {
+                margin-top: 28px;
+            }
+
+            .text-3 {
+                margin-top: 28px;
+            }
+
+            .counter {
+                margin-top: 56px;
+            }
+        }
+
+        .right-panel {
+            canvas {
+                width: 70%;
+                margin-top:20% !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        margin-top: 33px;
+
+        .left-panel {
+            .text-2 {
+                margin-top: 24px;
+            }
+
+            .text-3 {
+                margin-top: 24px;
+            }
+
+            .counter {
+                margin-top: 48px;
+            }
+        }
+
+        .right-panel {
+            canvas {
+                width: 80%;
+                margin-top:20% !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        margin-top: 28px;
+
+        .left-panel {
+            .text-2 {
+                margin-top: 20px;
+            }
+
+            .text-3 {
+                margin-top: 20px;
+            }
+
+            .counter {
+                margin-top: 40px;
+                display: grid;
+
+                .counter-1,
+                .counter-2,
+                .counter-3 {
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        .right-panel {
+            canvas {
+                width: 90%;
+                margin-top:20% !important;
+            }
+        }
+    }
+}

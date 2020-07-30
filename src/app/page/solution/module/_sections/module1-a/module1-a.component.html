@@ -1,0 +1,92 @@
+<div class="section">
+
+    <div class="main-layer">
+
+        <div class="row text">
+
+            <div class="col-lg-8 col-12">
+
+                <div class="title text-md">
+
+                    {{content.title}}
+
+                </div>
+
+                <div class="description text-sm">
+
+                    {{content.description}}
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row option">
+
+            <div class="col-xl-8 col-12">
+
+                <div class="sentence text-md">
+
+                    Wesentliche konfigurierbare Funktionen:
+
+                </div>
+
+                <div class="row option-list text-sm">
+
+                    <div class="col-lg-{{content.colL}} col-12">
+
+                        <div *ngFor="let option of content.optionsL" class="option-item-l">
+                            <span>✓&nbsp;&nbsp;</span>
+                            <span>{{option}}</span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-{{content.colR}} col-12">
+
+                        <div *ngFor="let option of content.optionsR" class="option-item-r">
+
+                            <div *ngIf="!option.option">
+                                <span>✓&nbsp;&nbsp;</span>
+                                <span>{{option}}</span>
+                            </div>
+
+                            <div *ngIf="option.option">
+                                <span>✓&nbsp;&nbsp;</span>
+                                <span>
+                                    {{option.option}}
+                                    <div *ngFor="let item of option.items">
+                                        <span>-&nbsp;&nbsp;</span>
+                                        <span>{{item}}</span>
+                                    </div>
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="image-layer">
+
+        <div class="row image">
+
+            <div class="col-lg-4 col-12">
+
+                <img src="{{content.image}}">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,27 @@
+.section {
+    margin-top: 55px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .section {
+        margin-top: 44px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section {
+        margin-top: 39px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        margin-top: 33px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section {
+        margin-top: 28px;
+    }
+}
