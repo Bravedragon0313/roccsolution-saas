@@ -8,9 +8,9 @@ declare var AdobeAn;
 })
 export class AboutUs1Component implements OnInit {
 
-  // counter1: any = 0;
-  // counter2: any = 0;
-  // counter3: any = 0;
+  counter1: any = 0;
+  counter2: any = 0;
+  counter3: any = 0;
 
   constructor() {
 
@@ -19,6 +19,7 @@ export class AboutUs1Component implements OnInit {
 
   }
   checkLoadElement() {
+    var count = 0;
     console.log('Here about');
     let canvas = document.getElementById("about_canvas");
     let anim_container = document.getElementById("about_animation_container");
@@ -29,22 +30,26 @@ export class AboutUs1Component implements OnInit {
       }, 200);
     } else {
       console.log('here clicked about')
-      document.getElementById('about_trigger-click').click();
+      
+      document.addEventListener('scroll', () => {
+        console.log("y", window.scrollY);
+        if (window.scrollY >= anim_container.getBoundingClientRect().top*1.1 && count == 0) {
+          document.getElementById('about_trigger-click').click();
+
+          count  = 1;
+        }
+      })
     }
   }
 
   ngOnInit() {
-    // setInterval(() => {
-    //   if (this.counter1 < 25) this.counter1++;
-    // }, 60);
+    setInterval(() => {
+      if (this.counter1 < 25) this.counter1++;
+    }, 60);
 
-    // setInterval(() => {
-    //   if (this.counter2 < 15) this.counter2++;
-    //   if (this.counter3 < 15) this.counter3++;
-    // }, 100);
-
-    // setTimeout(() => {
-    //   $('#about-us1 img').attr('src', 'assets/img/about-us-2.png');
-    // }, 15000);
+    setInterval(() => {
+      if (this.counter2 < 15) this.counter2++;
+      if (this.counter3 < 15) this.counter3++;
+    }, 100);
   }
 }

@@ -14,6 +14,7 @@ export class Development3Component implements OnInit {
 
   }
   checkLoadElement() {
+    var count = 0;
     console.log('Here linien');
     let canvas = document.getElementById("linien_canvas");
     let anim_container = document.getElementById("linien_animation_container");
@@ -24,7 +25,14 @@ export class Development3Component implements OnInit {
       }, 200);
     } else {
       console.log('here clicked linien')
-      document.getElementById('linien_trigger-click').click();
+      document.addEventListener('scroll', () => {
+        console.log("y", window.scrollY);
+        if (window.scrollY >= anim_container.getBoundingClientRect().top * 1.1 && count == 0) {
+          document.getElementById('linien_trigger-click').click();
+
+          count = 1;
+        }
+      })
     }
   }
   ngOnInit() {

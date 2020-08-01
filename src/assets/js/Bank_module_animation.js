@@ -1,11 +1,11 @@
 (function (cjs, an) {
 
 	var p; // shortcut to reference prototypes
-	var lib={};var ss={};var img={};
-	lib.ssMetadata = [];
+	var bank_lib={};var ss={};var img={};
+	bank_lib.ssMetadata = [];
 	
 	
-	(lib.AnMovieClip = function(){
+	(bank_lib.AnMovieClip = function(){
 		this.actionFrames = [];
 		this.gotoAndPlay = function(positionOrLabel){
 			cjs.MovieClip.prototype.gotoAndPlay.call(this,positionOrLabel);
@@ -24,49 +24,49 @@
 	
 	
 	
-	(lib.Pfad9765 = function() {
+	(bank_lib.Pfad9765 = function() {
 		this.initialize(img.Pfad9765);
 	}).prototype = p = new cjs.Bitmap();
 	p.nominalBounds = new cjs.Rectangle(0,0,184,61);
 	
 	
-	(lib.Pfad9766 = function() {
+	(bank_lib.Pfad9766 = function() {
 		this.initialize(img.Pfad9766);
 	}).prototype = p = new cjs.Bitmap();
 	p.nominalBounds = new cjs.Rectangle(0,0,163,30);
 	
 	
-	(lib.Pfad9767 = function() {
+	(bank_lib.Pfad9767 = function() {
 		this.initialize(img.Pfad9767);
 	}).prototype = p = new cjs.Bitmap();
 	p.nominalBounds = new cjs.Rectangle(0,0,174,21);
 	
 	
-	(lib.Pfad9768 = function() {
+	(bank_lib.Pfad9768 = function() {
 		this.initialize(img.Pfad9768);
 	}).prototype = p = new cjs.Bitmap();
 	p.nominalBounds = new cjs.Rectangle(0,0,135,40);
 	
 	
-	(lib.Pfad9769 = function() {
+	(bank_lib.Pfad9769 = function() {
 		this.initialize(img.Pfad9769);
 	}).prototype = p = new cjs.Bitmap();
 	p.nominalBounds = new cjs.Rectangle(0,0,178,40);
 	
 	
-	(lib.Pfad9770 = function() {
+	(bank_lib.Pfad9770 = function() {
 		this.initialize(img.Pfad9770);
 	}).prototype = p = new cjs.Bitmap();
 	p.nominalBounds = new cjs.Rectangle(0,0,133,33);
 	
 	
-	(lib.Pfad9771 = function() {
+	(bank_lib.Pfad9771 = function() {
 		this.initialize(img.Pfad9771);
 	}).prototype = p = new cjs.Bitmap();
 	p.nominalBounds = new cjs.Rectangle(0,0,236,14);
 	
 	
-	(lib.Pfad9772 = function() {
+	(bank_lib.Pfad9772 = function() {
 		this.initialize(img.Pfad9772);
 	}).prototype = p = new cjs.Bitmap();
 	p.nominalBounds = new cjs.Rectangle(0,0,313,55);// helper functions:
@@ -88,7 +88,7 @@
 		}
 	
 	
-	(lib.Tween1 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Tween1 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -156,7 +156,7 @@
 	p.nominalBounds = new cjs.Rectangle(-73.4,-18.4,146.9,36.9);
 	
 	
-	(lib.Symbol12 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Symbol12 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -176,10 +176,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Symbol12, new cjs.Rectangle(0,0,254.8,20.5), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Symbol12, new cjs.Rectangle(0,0,254.8,20.5), null);
 	
 	
-	(lib.Symbol11 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Symbol11 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -203,10 +203,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Symbol11, new cjs.Rectangle(-1,-1,305.9,45.9), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Symbol11, new cjs.Rectangle(-1,-1,305.9,45.9), null);
 	
 	
-	(lib.Symbol10 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Symbol10 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -234,10 +234,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Symbol10, new cjs.Rectangle(0,0,178.6,107.1), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Symbol10, new cjs.Rectangle(0,0,178.6,107.1), null);
 	
 	
-	(lib.Symbol9 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Symbol9 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -261,10 +261,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Symbol9, new cjs.Rectangle(-1,-1,239,48), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Symbol9, new cjs.Rectangle(-1,-1,239,48), null);
 	
 	
-	(lib.Symbol8 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Symbol8 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -284,10 +284,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Symbol8, new cjs.Rectangle(0,0,127,50), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Symbol8, new cjs.Rectangle(0,0,127,50), null);
 	
 	
-	(lib.Symbol6 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Symbol6 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -307,10 +307,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Symbol6, new cjs.Rectangle(0,0,196,34), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Symbol6, new cjs.Rectangle(0,0,196,34), null);
 	
 	
-	(lib.Symbol5 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Symbol5 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -334,10 +334,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Symbol5, new cjs.Rectangle(-1,-1,151,38.9), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Symbol5, new cjs.Rectangle(-1,-1,151,38.9), null);
 	
 	
-	(lib.Symbol4 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Symbol4 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -361,10 +361,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Symbol4, new cjs.Rectangle(-1,-1,166.2,37.8), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Symbol4, new cjs.Rectangle(-1,-1,166.2,37.8), null);
 	
 	
-	(lib.Symbol3 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Symbol3 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -388,10 +388,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Symbol3, new cjs.Rectangle(-1,-1,178.8,37.2), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Symbol3, new cjs.Rectangle(-1,-1,178.8,37.2), null);
 	
 	
-	(lib.Symbol2 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Symbol2 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -411,10 +411,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Symbol2, new cjs.Rectangle(0,0,209.3,76.2), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Symbol2, new cjs.Rectangle(0,0,209.3,76.2), null);
 	
 	
-	(lib.Symbol1 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Symbol1 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -562,10 +562,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Symbol1, new cjs.Rectangle(0,0,199.6,125.4), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Symbol1, new cjs.Rectangle(0,0,199.6,125.4), null);
 	
 	
-	(lib.WeitereLebenswelten = function(mode,startPosition,loop,reversed) {
+	(bank_lib.WeitereLebenswelten = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -657,10 +657,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.WeitereLebenswelten, new cjs.Rectangle(-2,-3.7,252.6,33.300000000000004), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.WeitereLebenswelten, new cjs.Rectangle(-2,-3.7,252.6,33.300000000000004), null);
 	
 	
-	(lib.Pfad9335 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Pfad9335 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -684,10 +684,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Pfad9335, new cjs.Rectangle(0,0,181.6,88.5), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Pfad9335, new cjs.Rectangle(0,0,181.6,88.5), null);
 	
 	
-	(lib.Pfad9283 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Pfad9283 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -707,10 +707,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Pfad9283, new cjs.Rectangle(0,0,54.2,69.9), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Pfad9283, new cjs.Rectangle(0,0,54.2,69.9), null);
 	
 	
-	(lib.Pfad9282 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Pfad9282 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -734,10 +734,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Pfad9282, new cjs.Rectangle(0,0,173.5,96.6), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Pfad9282, new cjs.Rectangle(0,0,173.5,96.6), null);
 	
 	
-	(lib.Pfad9048 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Pfad9048 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -757,10 +757,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Pfad9048, new cjs.Rectangle(0.1,0.1,128.8,96.4), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Pfad9048, new cjs.Rectangle(0.1,0.1,128.8,96.4), null);
 	
 	
-	(lib.Pfad9045 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Pfad9045 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -780,10 +780,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Pfad9045, new cjs.Rectangle(0,0,117.1,20.3), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Pfad9045, new cjs.Rectangle(0,0,117.1,20.3), null);
 	
 	
-	(lib.Pfad9044 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Pfad9044 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -803,10 +803,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Pfad9044, new cjs.Rectangle(0,0,113.4,63.2), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Pfad9044, new cjs.Rectangle(0,0,113.4,63.2), null);
 	
 	
-	(lib.Pfad9043 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Pfad9043 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -830,10 +830,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Pfad9043, new cjs.Rectangle(0,0,128.9,96.6), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Pfad9043, new cjs.Rectangle(0,0,128.9,96.6), null);
 	
 	
-	(lib.Pfad8944 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Pfad8944 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -853,10 +853,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Pfad8944, new cjs.Rectangle(0,0,113.5,64.7), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Pfad8944, new cjs.Rectangle(0,0,113.5,64.7), null);
 	
 	
-	(lib.Pfad8943 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Pfad8943 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -880,10 +880,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Pfad8943, new cjs.Rectangle(0,0,174.4,88.5), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Pfad8943, new cjs.Rectangle(0,0,174.4,88.5), null);
 	
 	
-	(lib.Pfad8861 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Pfad8861 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -907,10 +907,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Pfad8861, new cjs.Rectangle(0,0,173.6,96.6), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Pfad8861, new cjs.Rectangle(0,0,173.6,96.6), null);
 	
 	
-	(lib.Pfad8860 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Pfad8860 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -930,10 +930,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Pfad8860, new cjs.Rectangle(0,0,114.6,12.2), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Pfad8860, new cjs.Rectangle(0,0,114.6,12.2), null);
 	
 	
-	(lib.Pfad8822 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Pfad8822 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -957,10 +957,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Pfad8822, new cjs.Rectangle(0,0,181.5,88.5), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Pfad8822, new cjs.Rectangle(0,0,181.5,88.5), null);
 	
 	
-	(lib.Pfad8821 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Pfad8821 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -980,10 +980,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Pfad8821, new cjs.Rectangle(0,0,47.1,82.6), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Pfad8821, new cjs.Rectangle(0,0,47.1,82.6), null);
 	
 	
-	(lib.Pfad8714 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Pfad8714 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -1003,10 +1003,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Pfad8714, new cjs.Rectangle(0,0,60,89.9), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Pfad8714, new cjs.Rectangle(0,0,60,89.9), null);
 	
 	
-	(lib.Mobilität = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Mobilität = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -1058,10 +1058,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Mobilität, new cjs.Rectangle(-2,-6.7,102.3,36.9), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Mobilität, new cjs.Rectangle(-2,-6.7,102.3,36.9), null);
 	
 	
-	(lib.Konsum = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Konsum = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -1101,10 +1101,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Konsum, new cjs.Rectangle(-2,-6.7,96.4,36.9), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Konsum, new cjs.Rectangle(-2,-6.7,96.4,36.9), null);
 	
 	
-	(lib.Gruppe4411 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Gruppe4411 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -1124,10 +1124,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Gruppe4411, new cjs.Rectangle(0,1.3,21.6,86.10000000000001), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Gruppe4411, new cjs.Rectangle(0,1.3,21.6,86.10000000000001), null);
 	
 	
-	(lib.Gruppe4402 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Gruppe4402 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -1147,10 +1147,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Gruppe4402, new cjs.Rectangle(0,0,11.1,44.2), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Gruppe4402, new cjs.Rectangle(0,0,11.1,44.2), null);
 	
 	
-	(lib.Gesundheit = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Gesundheit = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -1206,10 +1206,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Gesundheit, new cjs.Rectangle(-2,-6.7,130,36.9), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Gesundheit, new cjs.Rectangle(-2,-6.7,130,36.9), null);
 	
 	
-	(lib.Finanzen = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Finanzen = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -1257,10 +1257,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Finanzen, new cjs.Rectangle(-2,-6.7,104.4,36.9), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Finanzen, new cjs.Rectangle(-2,-6.7,104.4,36.9), null);
 	
 	
-	(lib.BildungKarriere = function(mode,startPosition,loop,reversed) {
+	(bank_lib.BildungKarriere = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -1340,10 +1340,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.BildungKarriere, new cjs.Rectangle(-2,-6.8,184.7,37), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.BildungKarriere, new cjs.Rectangle(-2,-6.8,184.7,37), null);
 	
 	
-	(lib.BauenWohnen = function(mode,startPosition,loop,reversed) {
+	(bank_lib.BauenWohnen = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -1407,10 +1407,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.BauenWohnen, new cjs.Rectangle(-2,-6.7,175.2,36.9), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.BauenWohnen, new cjs.Rectangle(-2,-6.7,175.2,36.9), null);
 	
 	
-	(lib.Bank = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Bank = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -1442,10 +1442,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Bank, new cjs.Rectangle(-2.9,-3.2,23.4,20.599999999999998), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Bank, new cjs.Rectangle(-2.9,-3.2,23.4,20.599999999999998), null);
 	
 	
-	(lib.ClipGroup = function(mode,startPosition,loop,reversed) {
+	(bank_lib.ClipGroup = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -3528,10 +3528,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.ClipGroup, new cjs.Rectangle(8.3,8,199.29999999999998,121.5), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.ClipGroup, new cjs.Rectangle(8.3,8,199.29999999999998,121.5), null);
 	
 	
-	(lib.Symbol7 = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Symbol7 = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -3543,7 +3543,7 @@
 		cjs.MovieClip.apply(this,[props]);
 	
 		// Ebene_1
-		this.instance = new lib.Symbol6();
+		this.instance = new bank_lib.Symbol6();
 		this.instance.setTransform(98,17,1,1,0,0,0,98,17);
 	
 		this.shape = new cjs.Shape();
@@ -3554,10 +3554,10 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Symbol7, new cjs.Rectangle(-1,0,198,43), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Symbol7, new cjs.Rectangle(-1,0,198,43), null);
 	
 	
-	(lib.Group = function(mode,startPosition,loop,reversed) {
+	(bank_lib.Group = function(mode,startPosition,loop,reversed) {
 	if (loop == null) { loop = true; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
@@ -3569,7 +3569,7 @@
 		cjs.MovieClip.apply(this,[props]);
 	
 		// Ebene_1
-		this.instance = new lib.Symbol1();
+		this.instance = new bank_lib.Symbol1();
 		this.instance.setTransform(99.8,62.6,1,1,0,0,0,99.8,62.6);
 		this.instance.filters = [new cjs.ColorFilter(0.5, 0.5, 0.5, 1, 1, 121.5, 125, 0)];
 		this.instance.cache(-2,-2,204,129);
@@ -3578,12 +3578,12 @@
 	
 		this._renderFirstFrame();
 	
-	}).prototype = getMCSymbolPrototype(lib.Group, new cjs.Rectangle(0,0,199.6,125.4), null);
+	}).prototype = getMCSymbolPrototype(bank_lib.Group, new cjs.Rectangle(0,0,199.6,125.4), null);
 	
 	
 	// stage content:
-	(lib.Bank_module_animation = function(mode,startPosition,loop,reversed) {
-	if (loop == null) { loop = true; }
+	(bank_lib.Bank_module_animation = function(mode,startPosition,loop,reversed) {
+	if (loop == null) { loop = false; }
 	if (reversed == null) { reversed = false; }
 		var props = new Object();
 		props.mode = mode;
@@ -3594,7 +3594,7 @@
 		cjs.MovieClip.apply(this,[props]);
 	
 		// Ebene_7
-		this.instance = new lib.Symbol12();
+		this.instance = new bank_lib.Symbol12();
 		this.instance.setTransform(769.65,354.5,1,1.5599,0,0,0,127.4,10.2);
 		this.instance._off = true;
 	
@@ -3609,28 +3609,28 @@
 		this.timeline.addTween(cjs.Tween.get(this.shape).wait(177).to({_off:false},0).to({_off:true},1).wait(95));
 	
 		// Lebenswelten
-		this.instance_1 = new lib.WeitereLebenswelten();
+		this.instance_1 = new bank_lib.WeitereLebenswelten();
 		this.instance_1.setTransform(767.2,360.65,1,1,0,0,0,124.3,12.9);
 		this.instance_1._off = true;
 	
 		this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(177).to({_off:false},0).wait(96));
 	
 		// Ebene_5
-		this.instance_2 = new lib.Symbol11();
+		this.instance_2 = new bank_lib.Symbol11();
 		this.instance_2.setTransform(759.45,375.2,1,1,0,0,0,152,21.9);
 		this.instance_2._off = true;
 	
 		this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(152).to({_off:false},0).wait(1).to({regX:151.9,x:771.1},0).wait(1).to({x:782.9},0).wait(1).to({x:794.7},0).wait(1).to({x:806.5},0).wait(1).to({x:818.3},0).wait(1).to({x:830.1},0).wait(1).to({x:841.9},0).wait(1).to({x:853.7},0).wait(1).to({x:865.5},0).wait(1).to({x:877.3},0).wait(1).to({x:889.1},0).wait(1).to({x:900.9},0).wait(1).to({x:912.65},0).wait(1).to({x:924.45},0).wait(1).to({x:936.25},0).wait(1).to({x:948.05},0).wait(1).to({x:959.85},0).wait(1).to({x:971.65},0).wait(1).to({x:983.45},0).wait(1).to({x:995.25},0).wait(1).to({x:1007.05},0).wait(1).to({x:1018.85},0).wait(1).to({x:1030.65},0).wait(1).to({x:1042.45},0).wait(1).to({x:1054.25},0).to({_off:true},1).wait(95));
 	
 		// Lebenswelten_strich
-		this.instance_3 = new lib.Pfad9772();
+		this.instance_3 = new bank_lib.Pfad9772();
 		this.instance_3.setTransform(579,325);
 		this.instance_3._off = true;
 	
 		this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(152).to({_off:false},0).wait(121));
 	
 		// Lebenswelten_plattform
-		this.instance_4 = new lib.Symbol10();
+		this.instance_4 = new bank_lib.Symbol10();
 		this.instance_4.setTransform(584,303.65,1,1,0,0,0,89.2,53.6);
 		this.instance_4.alpha = 0;
 		this.instance_4._off = true;
@@ -3638,7 +3638,7 @@
 		this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(142).to({_off:false},0).wait(1).to({alpha:0.1016},0).wait(1).to({alpha:0.1992},0).wait(1).to({alpha:0.3008},0).wait(1).to({alpha:0.3984},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.6016},0).wait(1).to({alpha:0.6992},0).wait(1).to({alpha:0.8008},0).wait(1).to({alpha:0.8984},0).wait(1).to({y:302.85},0).wait(1).to({y:302.05},0).wait(1).to({y:301.25},0).wait(1).to({y:300.45},0).wait(1).to({y:299.65},0).wait(1).to({y:298.85},0).wait(1).to({y:298.05},0).wait(1).to({y:297.25},0).wait(1).to({y:296.45},0).wait(1).to({y:295.65},0).wait(1).to({y:296.45},0).wait(1).to({y:297.25},0).wait(1).to({y:298.05},0).wait(1).to({y:298.85},0).wait(1).to({y:299.65},0).wait(1).to({y:300.45},0).wait(1).to({y:301.25},0).wait(1).to({y:302.05},0).wait(1).to({y:302.85},0).wait(1).to({y:303.65},0).wait(1).to({y:304.45},0).wait(1).to({y:305.25},0).wait(1).to({y:306.05},0).wait(1).to({y:305.25},0).wait(1).to({y:304.45},0).wait(1).to({y:303.65},0).wait(1).to({y:302.85},0).wait(1).to({y:302.05},0).wait(1).to({y:301.25},0).wait(1).to({y:300.45},0).wait(1).to({y:299.65},0).wait(1).to({y:298.85},0).wait(1).to({y:298.05},0).wait(1).to({y:297.25},0).wait(1).to({y:296.45},0).wait(1).to({y:295.65},0).wait(1).to({y:296.45},0).wait(1).to({y:297.25},0).wait(1).to({y:298.05},0).wait(1).to({y:298.85},0).wait(1).to({y:299.65},0).wait(1).to({y:300.45},0).wait(1).to({y:301.25},0).wait(1).to({y:302.05},0).wait(1).to({y:302.85},0).wait(1).to({y:303.65},0).wait(1).to({y:304.45},0).wait(1).to({y:305.25},0).wait(1).to({y:306.05},0).wait(1).to({y:305.25},0).wait(1).to({y:304.45},0).wait(1).to({y:303.65},0).wait(1).to({y:302.85},0).wait(1).to({y:302.05},0).wait(1).to({y:301.25},0).wait(1).to({y:300.45},0).wait(1).to({y:299.65},0).wait(1).to({y:298.85},0).wait(1).to({y:298.05},0).wait(1).to({y:297.25},0).wait(1).to({y:296.45},0).wait(1).to({y:295.65},0).wait(1).to({y:296.45},0).wait(1).to({y:297.25},0).wait(1).to({y:298.05},0).wait(1).to({y:298.85},0).wait(1).to({y:299.65},0).wait(1).to({y:300.45},0).wait(1).to({y:301.25},0).wait(1).to({y:302.05},0).wait(1).to({y:302.85},0).wait(1).to({y:303.65},0).wait(50));
 	
 		// Bildung_karriere
-		this.instance_5 = new lib.BildungKarriere();
+		this.instance_5 = new bank_lib.BildungKarriere();
 		this.instance_5.setTransform(789.7,231.6,1,1,0,0,0,90.4,11.7);
 		this.instance_5.alpha = 0;
 		this.instance_5._off = true;
@@ -3646,14 +3646,14 @@
 		this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(126).to({_off:false},0).wait(1).to({alpha:0.1016},0).wait(1).to({alpha:0.1992},0).wait(1).to({alpha:0.3008},0).wait(1).to({alpha:0.3984},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.6016},0).wait(1).to({alpha:0.6992},0).wait(1).to({alpha:0.8008},0).wait(1).to({alpha:0.8984},0).wait(1).to({alpha:1},0).wait(137));
 	
 		// Ebene_4
-		this.instance_6 = new lib.Symbol9();
+		this.instance_6 = new bank_lib.Symbol9();
 		this.instance_6.setTransform(781.6,247.85,1,1,0,0,0,118.5,23);
 		this.instance_6._off = true;
 	
 		this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(101).to({_off:false},0).wait(1).to({x:790.2,y:247.9},0).wait(1).to({x:798.85,y:247.95},0).wait(1).to({x:807.5,y:248.05},0).wait(1).to({x:816.15,y:248.1},0).wait(1).to({x:824.8,y:248.15},0).wait(1).to({x:833.45,y:248.25},0).wait(1).to({x:842.05,y:248.3},0).wait(1).to({x:850.7,y:248.35},0).wait(1).to({x:859.35,y:248.45},0).wait(1).to({x:868,y:248.5},0).wait(1).to({x:876.65,y:248.55},0).wait(1).to({x:885.3,y:248.65},0).wait(1).to({x:893.9,y:248.7},0).wait(1).to({x:902.55,y:248.8},0).wait(1).to({x:911.2,y:248.85},0).wait(1).to({x:919.85,y:248.9},0).wait(1).to({x:928.5,y:249},0).wait(1).to({x:937.15,y:249.05},0).wait(1).to({x:945.75,y:249.1},0).wait(1).to({x:954.4,y:249.2},0).wait(1).to({x:963.05,y:249.25},0).wait(1).to({x:971.7,y:249.3},0).wait(1).to({x:980.35,y:249.4},0).wait(1).to({x:989,y:249.45},0).wait(1).to({x:997.65,y:249.55},0).to({_off:true},1).wait(146));
 	
 		// Bildung_karriere_strich
-		this.instance_7 = new lib.Pfad9771();
+		this.instance_7 = new bank_lib.Pfad9771();
 		this.instance_7.setTransform(643,241);
 		this.instance_7._off = true;
 	
@@ -3664,22 +3664,22 @@
 		this.shape_1.graphics.f("#E5E8F9").s().p("AhBA2QB8h9AxioIgqC6QgxCnh8B+g");
 		this.shape_1.setTransform(644.775,301.2);
 	
-		this.instance_8 = new lib.Pfad9044();
+		this.instance_8 = new bank_lib.Pfad9044();
 		this.instance_8.setTransform(581.45,289.75,1,1,0,0,0,56.6,31.6);
 		this.instance_8.alpha = 0.8984;
 	
-		this.instance_9 = new lib.Pfad9043();
+		this.instance_9 = new bank_lib.Pfad9043();
 		this.instance_9.setTransform(593.7,258.3,1,1,0,0,0,64.5,48.2);
 		this.instance_9.alpha = 0.8984;
 	
-		this.instance_10 = new lib.Gruppe4402();
+		this.instance_10 = new bank_lib.Gruppe4402();
 		this.instance_10.setTransform(533.45,232.25,1,1,0,0,0,5.5,22.1);
 		this.instance_10.alpha = 0.8984;
 	
 		this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_10,p:{y:232.25}},{t:this.instance_9,p:{y:258.3}},{t:this.instance_8,p:{y:289.75}},{t:this.shape_1,p:{y:301.2}}]}).to({state:[{t:this.instance_10,p:{y:232.25}},{t:this.instance_9,p:{y:258.3}},{t:this.instance_8,p:{y:289.75}},{t:this.shape_1,p:{y:301.2}}]},86).to({state:[{t:this.instance_10,p:{y:231.5}},{t:this.instance_9,p:{y:257.55}},{t:this.instance_8,p:{y:289}},{t:this.shape_1,p:{y:300.45}}]},1).to({state:[{t:this.instance_10,p:{y:230.75}},{t:this.instance_9,p:{y:256.8}},{t:this.instance_8,p:{y:288.25}},{t:this.shape_1,p:{y:299.7}}]},1).to({state:[{t:this.instance_10,p:{y:230}},{t:this.instance_9,p:{y:256.05}},{t:this.instance_8,p:{y:287.5}},{t:this.shape_1,p:{y:298.95}}]},1).to({state:[{t:this.instance_10,p:{y:229.25}},{t:this.instance_9,p:{y:255.3}},{t:this.instance_8,p:{y:286.75}},{t:this.shape_1,p:{y:298.2}}]},1).to({state:[{t:this.instance_10,p:{y:228.5}},{t:this.instance_9,p:{y:254.55}},{t:this.instance_8,p:{y:286}},{t:this.shape_1,p:{y:297.45}}]},1).to({state:[{t:this.instance_10,p:{y:227.75}},{t:this.instance_9,p:{y:253.8}},{t:this.instance_8,p:{y:285.25}},{t:this.shape_1,p:{y:296.7}}]},1).to({state:[{t:this.instance_10,p:{y:227}},{t:this.instance_9,p:{y:253.05}},{t:this.instance_8,p:{y:284.5}},{t:this.shape_1,p:{y:295.95}}]},1).to({state:[{t:this.instance_10,p:{y:226.25}},{t:this.instance_9,p:{y:252.3}},{t:this.instance_8,p:{y:283.75}},{t:this.shape_1,p:{y:295.2}}]},1).to({state:[{t:this.instance_10,p:{y:225.5}},{t:this.instance_9,p:{y:251.55}},{t:this.instance_8,p:{y:283}},{t:this.shape_1,p:{y:294.45}}]},1).to({state:[{t:this.instance_10,p:{y:224.75}},{t:this.instance_9,p:{y:250.8}},{t:this.instance_8,p:{y:282.25}},{t:this.shape_1,p:{y:293.7}}]},1).to({state:[{t:this.instance_10,p:{y:225.5}},{t:this.instance_9,p:{y:251.55}},{t:this.instance_8,p:{y:283}},{t:this.shape_1,p:{y:294.45}}]},1).to({state:[{t:this.instance_10,p:{y:226.25}},{t:this.instance_9,p:{y:252.3}},{t:this.instance_8,p:{y:283.75}},{t:this.shape_1,p:{y:295.2}}]},1).to({state:[{t:this.instance_10,p:{y:227}},{t:this.instance_9,p:{y:253.05}},{t:this.instance_8,p:{y:284.5}},{t:this.shape_1,p:{y:295.95}}]},1).to({state:[{t:this.instance_10,p:{y:227.75}},{t:this.instance_9,p:{y:253.8}},{t:this.instance_8,p:{y:285.25}},{t:this.shape_1,p:{y:296.7}}]},1).to({state:[{t:this.instance_10,p:{y:228.5}},{t:this.instance_9,p:{y:254.55}},{t:this.instance_8,p:{y:286}},{t:this.shape_1,p:{y:297.45}}]},1).to({state:[{t:this.instance_10,p:{y:229.25}},{t:this.instance_9,p:{y:255.3}},{t:this.instance_8,p:{y:286.75}},{t:this.shape_1,p:{y:298.2}}]},1).to({state:[{t:this.instance_10,p:{y:230}},{t:this.instance_9,p:{y:256.05}},{t:this.instance_8,p:{y:287.5}},{t:this.shape_1,p:{y:298.95}}]},2).to({state:[{t:this.instance_10,p:{y:230.75}},{t:this.instance_9,p:{y:256.8}},{t:this.instance_8,p:{y:288.25}},{t:this.shape_1,p:{y:299.7}}]},1).to({state:[{t:this.instance_10,p:{y:231.5}},{t:this.instance_9,p:{y:257.55}},{t:this.instance_8,p:{y:289}},{t:this.shape_1,p:{y:300.45}}]},2).to({state:[{t:this.instance_10,p:{y:232.25}},{t:this.instance_9,p:{y:258.3}},{t:this.instance_8,p:{y:289.75}},{t:this.shape_1,p:{y:301.2}}]},1).wait(165));
 	
 		// Unterhaltung
-		this.instance_11 = new lib.Tween1("synched",0);
+		this.instance_11 = new bank_lib.Tween1("synched",0);
 		this.instance_11.setTransform(257.9,389.6);
 		this.instance_11.alpha = 0;
 		this.instance_11._off = true;
@@ -3687,21 +3687,21 @@
 		this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(41).to({_off:false},0).wait(1).to({alpha:0.1016},0).wait(1).to({alpha:0.1992},0).wait(1).to({alpha:0.3008},0).wait(1).to({alpha:0.3984},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.6016},0).wait(1).to({alpha:0.6992},0).wait(1).to({alpha:0.8008},0).wait(1).to({alpha:0.8984},0).wait(1).to({alpha:1},0).wait(222));
 	
 		// Ebene_28
-		this.instance_12 = new lib.Symbol2();
+		this.instance_12 = new bank_lib.Symbol2();
 		this.instance_12.setTransform(263.65,389.5,1,1,0,0,0,104.7,38.1);
 		this.instance_12._off = true;
 	
 		this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(16).to({_off:false},0).wait(1).to({x:255.75,y:389.4},0).wait(1).to({x:247.85,y:389.35},0).wait(1).to({x:240,y:389.3},0).wait(1).to({x:232.1,y:389.25},0).wait(1).to({x:224.2,y:389.15},0).wait(1).to({x:216.35,y:389.1},0).wait(1).to({x:208.45,y:389.05},0).wait(1).to({x:200.55,y:389},0).wait(1).to({x:192.7,y:388.9},0).wait(1).to({x:184.8,y:388.85},0).wait(1).to({x:176.9,y:388.8},0).wait(1).to({x:169.05,y:388.75},0).wait(1).to({x:161.15,y:388.65},0).wait(1).to({x:153.3,y:388.6},0).wait(1).to({x:145.4,y:388.55},0).wait(1).to({x:137.5,y:388.5},0).wait(1).to({x:129.65,y:388.4},0).wait(1).to({x:121.75,y:388.35},0).wait(1).to({x:113.85,y:388.3},0).wait(1).to({x:106,y:388.25},0).wait(1).to({x:98.15,y:388.15},0).wait(1).to({x:90.25,y:388.1},0).wait(1).to({x:82.4,y:388.05},0).wait(1).to({x:74.5,y:388},0).wait(1).to({x:66.6,y:387.95},0).to({_off:true},1).wait(231));
 	
 		// Unterhaltung_strich
-		this.instance_13 = new lib.Pfad9765();
+		this.instance_13 = new bank_lib.Pfad9765();
 		this.instance_13.setTransform(185,350);
 		this.instance_13._off = true;
 	
 		this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(16).to({_off:false},0).wait(257));
 	
 		// Unterhaltung_plattform
-		this.instance_14 = new lib.Pfad9335();
+		this.instance_14 = new bank_lib.Pfad9335();
 		this.instance_14.setTransform(414.75,309.3,1,1,0,0,0,90.8,44.2);
 		this.instance_14.alpha = 0.8984;
 	
@@ -3712,7 +3712,7 @@
 		this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_2,p:{y:342.4}},{t:this.instance_14,p:{y:309.3}}]}).to({state:[{t:this.shape_2,p:{y:341.65}},{t:this.instance_14,p:{y:308.55}}]},1).to({state:[{t:this.shape_2,p:{y:340.9}},{t:this.instance_14,p:{y:307.8}}]},1).to({state:[{t:this.shape_2,p:{y:340.15}},{t:this.instance_14,p:{y:307.05}}]},1).to({state:[{t:this.shape_2,p:{y:339.4}},{t:this.instance_14,p:{y:306.3}}]},1).to({state:[{t:this.shape_2,p:{y:338.65}},{t:this.instance_14,p:{y:305.55}}]},1).to({state:[{t:this.shape_2,p:{y:337.9}},{t:this.instance_14,p:{y:304.8}}]},1).to({state:[{t:this.shape_2,p:{y:337.15}},{t:this.instance_14,p:{y:304.05}}]},1).to({state:[{t:this.shape_2,p:{y:336.4}},{t:this.instance_14,p:{y:303.3}}]},1).to({state:[{t:this.shape_2,p:{y:335.65}},{t:this.instance_14,p:{y:302.55}}]},1).to({state:[{t:this.shape_2,p:{y:334.9}},{t:this.instance_14,p:{y:301.8}}]},1).to({state:[{t:this.shape_2,p:{y:334.9}},{t:this.instance_14,p:{y:301.8}}]},1).to({state:[{t:this.shape_2,p:{y:335.65}},{t:this.instance_14,p:{y:302.55}}]},1).to({state:[{t:this.shape_2,p:{y:336.4}},{t:this.instance_14,p:{y:303.3}}]},1).to({state:[{t:this.shape_2,p:{y:337.15}},{t:this.instance_14,p:{y:304.05}}]},1).to({state:[{t:this.shape_2,p:{y:337.9}},{t:this.instance_14,p:{y:304.8}}]},1).to({state:[{t:this.shape_2,p:{y:338.65}},{t:this.instance_14,p:{y:305.55}}]},1).to({state:[{t:this.shape_2,p:{y:339.4}},{t:this.instance_14,p:{y:306.3}}]},1).to({state:[{t:this.shape_2,p:{y:340.15}},{t:this.instance_14,p:{y:307.05}}]},1).to({state:[{t:this.shape_2,p:{y:340.9}},{t:this.instance_14,p:{y:307.8}}]},1).to({state:[{t:this.shape_2,p:{y:341.65}},{t:this.instance_14,p:{y:308.55}}]},1).to({state:[{t:this.shape_2,p:{y:342.4}},{t:this.instance_14,p:{y:309.3}}]},1).wait(252));
 	
 		// Konsum
-		this.instance_15 = new lib.Konsum();
+		this.instance_15 = new bank_lib.Konsum();
 		this.instance_15.setTransform(102.4,291,1,1,0,0,0,46.1,11.7);
 		this.instance_15.alpha = 0;
 		this.instance_15._off = true;
@@ -3720,25 +3720,25 @@
 		this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(54).to({_off:false},0).wait(1).to({alpha:0.1016},0).wait(1).to({alpha:0.1992},0).wait(1).to({alpha:0.3008},0).wait(1).to({alpha:0.3984},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.6016},0).wait(1).to({alpha:0.6992},0).wait(1).to({alpha:0.8008},0).wait(1).to({alpha:0.8984},0).wait(1).to({alpha:1},0).wait(209));
 	
 		// Ebene_29
-		this.instance_16 = new lib.Symbol3();
+		this.instance_16 = new bank_lib.Symbol3();
 		this.instance_16.setTransform(131.95,294.9,1,1,0,0,0,88.4,17.6);
 		this.instance_16._off = true;
 	
 		this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(30).to({_off:false},0).wait(1).to({x:124.85},0).wait(1).to({x:117.75},0).wait(1).to({x:110.7},0).wait(1).to({x:103.6},0).wait(1).to({x:96.55},0).wait(1).to({x:89.45},0).wait(1).to({x:82.45},0).wait(1).to({x:75.35},0).wait(1).to({x:68.3},0).wait(1).to({x:61.2},0).wait(1).to({x:54.15},0).wait(1).to({x:47.05},0).wait(1).to({x:39.95},0).wait(1).to({x:32.9},0).wait(1).to({x:25.8},0).wait(1).to({x:18.75},0).wait(1).to({x:11.65},0).wait(1).to({x:4.6},0).wait(1).to({x:-2.5},0).wait(1).to({x:-9.55},0).wait(1).to({x:-16.65},0).wait(1).to({x:-23.7},0).wait(1).to({x:-30.8},0).wait(1).to({x:-37.9},0).to({_off:true},1).wait(218));
 	
 		// Konsum_strich
-		this.instance_17 = new lib.Pfad9766();
+		this.instance_17 = new bank_lib.Pfad9766();
 		this.instance_17.setTransform(58,280);
 		this.instance_17._off = true;
 	
 		this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(30).to({_off:false},0).wait(243));
 	
 		// Konsum_plattform
-		this.instance_18 = new lib.Pfad9283();
+		this.instance_18 = new bank_lib.Pfad9283();
 		this.instance_18.setTransform(336.65,296.05,1,1,0,0,0,27.1,34.9);
 		this.instance_18.alpha = 0.8984;
 	
-		this.instance_19 = new lib.Pfad9282();
+		this.instance_19 = new bank_lib.Pfad9282();
 		this.instance_19.setTransform(277.15,261.3,1,1,0,0,0,86.8,48.2);
 		this.instance_19.alpha = 0.8984;
 	
@@ -3749,7 +3749,7 @@
 		this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3,p:{y:272.025}},{t:this.instance_19,p:{y:261.3}},{t:this.instance_18,p:{y:296.05}}]}).to({state:[{t:this.shape_3,p:{y:271.275}},{t:this.instance_19,p:{y:260.55}},{t:this.instance_18,p:{y:295.3}}]},15).to({state:[{t:this.shape_3,p:{y:270.525}},{t:this.instance_19,p:{y:259.8}},{t:this.instance_18,p:{y:294.55}}]},1).to({state:[{t:this.shape_3,p:{y:269.775}},{t:this.instance_19,p:{y:259.05}},{t:this.instance_18,p:{y:293.8}}]},1).to({state:[{t:this.shape_3,p:{y:269.025}},{t:this.instance_19,p:{y:258.3}},{t:this.instance_18,p:{y:293.05}}]},1).to({state:[{t:this.shape_3,p:{y:268.275}},{t:this.instance_19,p:{y:257.55}},{t:this.instance_18,p:{y:292.3}}]},1).to({state:[{t:this.shape_3,p:{y:267.525}},{t:this.instance_19,p:{y:256.8}},{t:this.instance_18,p:{y:291.55}}]},1).to({state:[{t:this.shape_3,p:{y:266.775}},{t:this.instance_19,p:{y:256.05}},{t:this.instance_18,p:{y:290.8}}]},1).to({state:[{t:this.shape_3,p:{y:266.025}},{t:this.instance_19,p:{y:255.3}},{t:this.instance_18,p:{y:290.05}}]},1).to({state:[{t:this.shape_3,p:{y:265.275}},{t:this.instance_19,p:{y:254.55}},{t:this.instance_18,p:{y:289.3}}]},1).to({state:[{t:this.shape_3,p:{y:264.525}},{t:this.instance_19,p:{y:253.8}},{t:this.instance_18,p:{y:288.55}}]},1).to({state:[{t:this.shape_3,p:{y:264.525}},{t:this.instance_19,p:{y:253.8}},{t:this.instance_18,p:{y:288.55}}]},1).to({state:[{t:this.shape_3,p:{y:265.275}},{t:this.instance_19,p:{y:254.55}},{t:this.instance_18,p:{y:289.3}}]},1).to({state:[{t:this.shape_3,p:{y:266.025}},{t:this.instance_19,p:{y:255.3}},{t:this.instance_18,p:{y:290.05}}]},1).to({state:[{t:this.shape_3,p:{y:266.775}},{t:this.instance_19,p:{y:256.05}},{t:this.instance_18,p:{y:290.8}}]},1).to({state:[{t:this.shape_3,p:{y:267.525}},{t:this.instance_19,p:{y:256.8}},{t:this.instance_18,p:{y:291.55}}]},1).to({state:[{t:this.shape_3,p:{y:268.275}},{t:this.instance_19,p:{y:257.55}},{t:this.instance_18,p:{y:292.3}}]},1).to({state:[{t:this.shape_3,p:{y:269.025}},{t:this.instance_19,p:{y:258.3}},{t:this.instance_18,p:{y:293.05}}]},1).to({state:[{t:this.shape_3,p:{y:269.775}},{t:this.instance_19,p:{y:259.05}},{t:this.instance_18,p:{y:293.8}}]},1).to({state:[{t:this.shape_3,p:{y:270.525}},{t:this.instance_19,p:{y:259.8}},{t:this.instance_18,p:{y:294.55}}]},1).to({state:[{t:this.shape_3,p:{y:271.275}},{t:this.instance_19,p:{y:260.55}},{t:this.instance_18,p:{y:295.3}}]},1).to({state:[{t:this.shape_3,p:{y:272.025}},{t:this.instance_19,p:{y:261.3}},{t:this.instance_18,p:{y:296.05}}]},1).wait(238));
 	
 		// Bank
-		this.instance_20 = new lib.Bank();
+		this.instance_20 = new bank_lib.Bank();
 		this.instance_20.setTransform(435.95,154.95,1,1,0,0,0,8.8,7);
 	
 		this.shape_4 = new cjs.Shape();
@@ -3944,7 +3944,7 @@
 		this.shape_51.graphics.f("#F2F1F1").s().p("AiWFgIAAo7IEpiIIAEJTQgEAPgNASQgaAmgsAXQgtAVhYABg");
 		this.shape_51.setTransform(441.5,196.25);
 	
-		this.instance_21 = new lib.Group();
+		this.instance_21 = new bank_lib.Group();
 		this.instance_21.setTransform(419.95,209.4,1,1,0,0,0,99.8,62.6);
 		this.instance_21.compositeOperation = "overlay";
 	
@@ -3952,7 +3952,7 @@
 		this.shape_52.graphics.f("#EFF1FD").s().p("AFnBvQhshtjMhEQjLhGihAcQgyAJgoARIgeAQIATgkQAdgoAvgaQCXhTEUBgQEUBfA9CPQAeBHgZA1QgNgpg3g3g");
 		this.shape_52.setTransform(419.6881,201.9703);
 	
-		this.instance_22 = new lib.ClipGroup();
+		this.instance_22 = new bank_lib.ClipGroup();
 		this.instance_22.setTransform(419.35,209.3,1,1,0,0,0,108,68.7);
 	
 		this.shape_53 = new cjs.Shape();
@@ -3970,7 +3970,7 @@
 		this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.instance_22},{t:this.shape_52},{t:this.instance_21},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.instance_20}]}).wait(273));
 	
 		// Mobilität
-		this.instance_23 = new lib.Mobilität();
+		this.instance_23 = new bank_lib.Mobilität();
 		this.instance_23.setTransform(657.75,111.3,1,1,0,0,0,49.1,11.7);
 		this.instance_23.alpha = 0;
 		this.instance_23._off = true;
@@ -3978,25 +3978,25 @@
 		this.timeline.addTween(cjs.Tween.get(this.instance_23).wait(119).to({_off:false},0).wait(1).to({alpha:0.1016},0).wait(2).to({alpha:0.1992},0).wait(1).to({alpha:0.3008},0).wait(2).to({alpha:0.3984},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.6016},0).wait(1).to({alpha:0.6992},0).wait(1).to({alpha:0.8008},0).wait(1).to({alpha:0.8984},0).wait(1).to({alpha:1},0).wait(142));
 	
 		// Ebene_3
-		this.instance_24 = new lib.Symbol8();
+		this.instance_24 = new bank_lib.Symbol8();
 		this.instance_24.setTransform(650.65,125.05,1,1,0,0,0,63.5,25);
 		this.instance_24._off = true;
 	
 		this.timeline.addTween(cjs.Tween.get(this.instance_24).wait(88).to({_off:false},0).wait(1).to({x:655.8},0).wait(1).to({x:661},0).wait(1).to({x:666.2},0).wait(1).to({x:671.4},0).wait(1).to({x:676.6},0).wait(1).to({x:681.8},0).wait(1).to({x:687},0).wait(1).to({x:692.2},0).wait(1).to({x:697.4},0).wait(1).to({x:702.6},0).wait(1).to({x:707.8},0).wait(1).to({x:713},0).wait(1).to({x:718.2},0).wait(1).to({x:723.4},0).wait(1).to({x:728.6},0).wait(1).to({x:733.8},0).wait(1).to({x:739},0).wait(1).to({x:744.2},0).wait(1).to({x:749.4},0).wait(1).to({x:754.6},0).wait(1).to({x:759.8},0).wait(1).to({x:765},0).wait(1).to({x:770.2},0).wait(1).to({x:775.4},0).wait(1).to({x:780.6},0).to({_off:true},1).wait(159));
 	
 		// Mobilität_strich
-		this.instance_25 = new lib.Pfad9770();
+		this.instance_25 = new bank_lib.Pfad9770();
 		this.instance_25.setTransform(571,128);
 		this.instance_25._off = true;
 	
 		this.timeline.addTween(cjs.Tween.get(this.instance_25).wait(88).to({_off:false},0).wait(185));
 	
 		// Mobilität_plattform
-		this.instance_26 = new lib.Pfad8861();
+		this.instance_26 = new bank_lib.Pfad8861();
 		this.instance_26.setTransform(554.15,160.15,1,1,0,0,0,86.8,48.2);
 		this.instance_26.alpha = 0.8984;
 	
-		this.instance_27 = new lib.Pfad8860();
+		this.instance_27 = new bank_lib.Pfad8860();
 		this.instance_27.setTransform(583.45,214.45,1,1,0,0,0,57.2,6);
 		this.instance_27.alpha = 0.8984;
 	
@@ -4011,7 +4011,7 @@
 		this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_57,p:{y:196.4}},{t:this.shape_56,p:{y:172.4}},{t:this.instance_27,p:{y:214.45}},{t:this.instance_26,p:{y:160.15}}]}).to({state:[{t:this.shape_57,p:{y:196.4}},{t:this.shape_56,p:{y:172.4}},{t:this.instance_27,p:{y:214.45}},{t:this.instance_26,p:{y:160.15}}]},73).to({state:[{t:this.shape_57,p:{y:195.65}},{t:this.shape_56,p:{y:171.65}},{t:this.instance_27,p:{y:213.7}},{t:this.instance_26,p:{y:159.4}}]},1).to({state:[{t:this.shape_57,p:{y:194.9}},{t:this.shape_56,p:{y:170.9}},{t:this.instance_27,p:{y:212.95}},{t:this.instance_26,p:{y:158.65}}]},1).to({state:[{t:this.shape_57,p:{y:194.15}},{t:this.shape_56,p:{y:170.15}},{t:this.instance_27,p:{y:212.2}},{t:this.instance_26,p:{y:157.9}}]},1).to({state:[{t:this.shape_57,p:{y:193.4}},{t:this.shape_56,p:{y:169.4}},{t:this.instance_27,p:{y:211.45}},{t:this.instance_26,p:{y:157.15}}]},1).to({state:[{t:this.shape_57,p:{y:192.65}},{t:this.shape_56,p:{y:168.65}},{t:this.instance_27,p:{y:210.7}},{t:this.instance_26,p:{y:156.4}}]},1).to({state:[{t:this.shape_57,p:{y:191.9}},{t:this.shape_56,p:{y:167.9}},{t:this.instance_27,p:{y:209.95}},{t:this.instance_26,p:{y:155.65}}]},1).to({state:[{t:this.shape_57,p:{y:191.15}},{t:this.shape_56,p:{y:167.15}},{t:this.instance_27,p:{y:209.2}},{t:this.instance_26,p:{y:154.9}}]},1).to({state:[{t:this.shape_57,p:{y:190.4}},{t:this.shape_56,p:{y:166.4}},{t:this.instance_27,p:{y:208.45}},{t:this.instance_26,p:{y:154.15}}]},1).to({state:[{t:this.shape_57,p:{y:189.65}},{t:this.shape_56,p:{y:165.65}},{t:this.instance_27,p:{y:207.7}},{t:this.instance_26,p:{y:153.4}}]},1).to({state:[{t:this.shape_57,p:{y:188.9}},{t:this.shape_56,p:{y:164.9}},{t:this.instance_27,p:{y:206.95}},{t:this.instance_26,p:{y:152.65}}]},1).to({state:[{t:this.shape_57,p:{y:189.65}},{t:this.shape_56,p:{y:165.65}},{t:this.instance_27,p:{y:207.7}},{t:this.instance_26,p:{y:153.4}}]},1).to({state:[{t:this.shape_57,p:{y:190.4}},{t:this.shape_56,p:{y:166.4}},{t:this.instance_27,p:{y:208.45}},{t:this.instance_26,p:{y:154.15}}]},1).to({state:[{t:this.shape_57,p:{y:191.15}},{t:this.shape_56,p:{y:167.15}},{t:this.instance_27,p:{y:209.2}},{t:this.instance_26,p:{y:154.9}}]},1).to({state:[{t:this.shape_57,p:{y:191.9}},{t:this.shape_56,p:{y:167.9}},{t:this.instance_27,p:{y:209.95}},{t:this.instance_26,p:{y:155.65}}]},1).to({state:[{t:this.shape_57,p:{y:192.65}},{t:this.shape_56,p:{y:168.65}},{t:this.instance_27,p:{y:210.7}},{t:this.instance_26,p:{y:156.4}}]},1).to({state:[{t:this.shape_57,p:{y:193.4}},{t:this.shape_56,p:{y:169.4}},{t:this.instance_27,p:{y:211.45}},{t:this.instance_26,p:{y:157.15}}]},1).to({state:[{t:this.shape_57,p:{y:194.15}},{t:this.shape_56,p:{y:170.15}},{t:this.instance_27,p:{y:212.2}},{t:this.instance_26,p:{y:157.9}}]},1).to({state:[{t:this.shape_57,p:{y:194.9}},{t:this.shape_56,p:{y:170.9}},{t:this.instance_27,p:{y:212.95}},{t:this.instance_26,p:{y:158.65}}]},1).to({state:[{t:this.shape_57,p:{y:195.65}},{t:this.shape_56,p:{y:171.65}},{t:this.instance_27,p:{y:213.7}},{t:this.instance_26,p:{y:159.4}}]},1).to({state:[{t:this.shape_57,p:{y:196.4}},{t:this.shape_56,p:{y:172.4}},{t:this.instance_27,p:{y:214.45}},{t:this.instance_26,p:{y:160.15}}]},1).wait(180));
 	
 		// Gesundheit
-		this.instance_28 = new lib.Gesundheit();
+		this.instance_28 = new bank_lib.Gesundheit();
 		this.instance_28.setTransform(72.7,118.5,1,1,0,0,0,63,11.7);
 		this.instance_28.alpha = 0;
 		this.instance_28._off = true;
@@ -4019,29 +4019,29 @@
 		this.timeline.addTween(cjs.Tween.get(this.instance_28).wait(70).to({_off:false},0).wait(1).to({alpha:0.1016},0).wait(1).to({alpha:0.1992},0).wait(1).to({alpha:0.3008},0).wait(1).to({alpha:0.3984},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.6016},0).wait(1).to({alpha:0.6992},0).wait(1).to({alpha:0.8008},0).wait(1).to({alpha:0.8984},0).wait(1).to({alpha:1},0).wait(193));
 	
 		// Ebene_30
-		this.instance_29 = new lib.Symbol4();
+		this.instance_29 = new bank_lib.Symbol4();
 		this.instance_29.setTransform(81.85,141.9,1,1,0,0,0,82.1,17.9);
 		this.instance_29._off = true;
 	
 		this.timeline.addTween(cjs.Tween.get(this.instance_29).wait(45).to({_off:false},0).wait(1).to({x:75.6},0).wait(1).to({x:69.35},0).wait(1).to({x:63.1},0).wait(1).to({x:56.85},0).wait(1).to({x:50.6},0).wait(1).to({x:44.35},0).wait(1).to({x:38.1},0).wait(1).to({x:31.85},0).wait(1).to({x:25.6},0).wait(1).to({x:19.35},0).wait(1).to({x:13.1},0).wait(1).to({x:6.85},0).wait(1).to({x:0.6,y:141.95},0).wait(1).to({x:-5.65},0).wait(1).to({x:-11.9},0).wait(1).to({x:-18.15},0).wait(1).to({x:-24.4},0).wait(1).to({x:-30.65},0).wait(1).to({x:-36.9},0).wait(1).to({x:-43.15},0).wait(1).to({x:-49.4},0).wait(1).to({x:-55.65},0).wait(1).to({x:-61.9},0).wait(1).to({x:-68.15},0).wait(1).to({x:-74.4,y:142},0).to({_off:true},1).wait(202));
 	
 		// Gesundheit_strich
-		this.instance_30 = new lib.Pfad9767();
+		this.instance_30 = new bank_lib.Pfad9767();
 		this.instance_30.setTransform(15,139);
 		this.instance_30._off = true;
 	
 		this.timeline.addTween(cjs.Tween.get(this.instance_30).wait(45).to({_off:false},0).wait(228));
 	
 		// Gesundheit_plattform
-		this.instance_31 = new lib.Pfad9048();
+		this.instance_31 = new bank_lib.Pfad9048();
 		this.instance_31.setTransform(236.55,160.1,1,1,0,0,0,64.5,48.2);
 		this.instance_31.alpha = 0.8984;
 	
-		this.instance_32 = new lib.Gruppe4411();
+		this.instance_32 = new bank_lib.Gruppe4411();
 		this.instance_32.setTransform(176.9,185.65,1,1,0,0,0,10.8,44.3);
 		this.instance_32.alpha = 0.8984;
 	
-		this.instance_33 = new lib.Pfad9045();
+		this.instance_33 = new bank_lib.Pfad9045();
 		this.instance_33.setTransform(240.15,218.5,1,1,0,0,0,58.5,10.1);
 		this.instance_33.alpha = 0.8984;
 	
@@ -4052,7 +4052,7 @@
 		this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_58,p:{y:178.525}},{t:this.instance_33,p:{y:218.5}},{t:this.instance_32,p:{y:185.65}},{t:this.instance_31,p:{y:160.1}}]}).to({state:[{t:this.shape_58,p:{y:178.525}},{t:this.instance_33,p:{y:218.5}},{t:this.instance_32,p:{y:185.65}},{t:this.instance_31,p:{y:160.1}}]},30).to({state:[{t:this.shape_58,p:{y:177.775}},{t:this.instance_33,p:{y:217.75}},{t:this.instance_32,p:{y:184.9}},{t:this.instance_31,p:{y:159.35}}]},1).to({state:[{t:this.shape_58,p:{y:177.025}},{t:this.instance_33,p:{y:217}},{t:this.instance_32,p:{y:184.15}},{t:this.instance_31,p:{y:158.6}}]},1).to({state:[{t:this.shape_58,p:{y:176.275}},{t:this.instance_33,p:{y:216.25}},{t:this.instance_32,p:{y:183.4}},{t:this.instance_31,p:{y:157.85}}]},1).to({state:[{t:this.shape_58,p:{y:175.525}},{t:this.instance_33,p:{y:215.5}},{t:this.instance_32,p:{y:182.65}},{t:this.instance_31,p:{y:157.1}}]},1).to({state:[{t:this.shape_58,p:{y:174.775}},{t:this.instance_33,p:{y:214.75}},{t:this.instance_32,p:{y:181.9}},{t:this.instance_31,p:{y:156.35}}]},1).to({state:[{t:this.shape_58,p:{y:174.025}},{t:this.instance_33,p:{y:214}},{t:this.instance_32,p:{y:181.15}},{t:this.instance_31,p:{y:155.6}}]},1).to({state:[{t:this.shape_58,p:{y:173.275}},{t:this.instance_33,p:{y:213.25}},{t:this.instance_32,p:{y:180.4}},{t:this.instance_31,p:{y:154.85}}]},1).to({state:[{t:this.shape_58,p:{y:172.525}},{t:this.instance_33,p:{y:212.5}},{t:this.instance_32,p:{y:179.65}},{t:this.instance_31,p:{y:154.1}}]},1).to({state:[{t:this.shape_58,p:{y:171.775}},{t:this.instance_33,p:{y:211.75}},{t:this.instance_32,p:{y:178.9}},{t:this.instance_31,p:{y:153.35}}]},1).to({state:[{t:this.shape_58,p:{y:171.025}},{t:this.instance_33,p:{y:211}},{t:this.instance_32,p:{y:178.15}},{t:this.instance_31,p:{y:152.6}}]},1).to({state:[{t:this.shape_58,p:{y:171.775}},{t:this.instance_33,p:{y:211.75}},{t:this.instance_32,p:{y:178.9}},{t:this.instance_31,p:{y:153.35}}]},1).to({state:[{t:this.shape_58,p:{y:172.525}},{t:this.instance_33,p:{y:212.5}},{t:this.instance_32,p:{y:179.65}},{t:this.instance_31,p:{y:154.1}}]},1).to({state:[{t:this.shape_58,p:{y:173.275}},{t:this.instance_33,p:{y:213.25}},{t:this.instance_32,p:{y:180.4}},{t:this.instance_31,p:{y:154.85}}]},1).to({state:[{t:this.shape_58,p:{y:174.025}},{t:this.instance_33,p:{y:214}},{t:this.instance_32,p:{y:181.15}},{t:this.instance_31,p:{y:155.6}}]},1).to({state:[{t:this.shape_58,p:{y:174.775}},{t:this.instance_33,p:{y:214.75}},{t:this.instance_32,p:{y:181.9}},{t:this.instance_31,p:{y:156.35}}]},1).to({state:[{t:this.shape_58,p:{y:175.525}},{t:this.instance_33,p:{y:215.5}},{t:this.instance_32,p:{y:182.65}},{t:this.instance_31,p:{y:157.1}}]},1).to({state:[{t:this.shape_58,p:{y:176.275}},{t:this.instance_33,p:{y:216.25}},{t:this.instance_32,p:{y:183.4}},{t:this.instance_31,p:{y:157.85}}]},1).to({state:[{t:this.shape_58,p:{y:177.025}},{t:this.instance_33,p:{y:217}},{t:this.instance_32,p:{y:184.15}},{t:this.instance_31,p:{y:158.6}}]},1).to({state:[{t:this.shape_58,p:{y:177.775}},{t:this.instance_33,p:{y:217.75}},{t:this.instance_32,p:{y:184.9}},{t:this.instance_31,p:{y:159.35}}]},1).to({state:[{t:this.shape_58,p:{y:178.525}},{t:this.instance_33,p:{y:218.5}},{t:this.instance_32,p:{y:185.65}},{t:this.instance_31,p:{y:160.1}}]},1).wait(223));
 	
 		// Finanzen
-		this.instance_34 = new lib.Finanzen();
+		this.instance_34 = new bank_lib.Finanzen();
 		this.instance_34.setTransform(194.8,18.45,1,1,0,0,0,50.2,11.7);
 		this.instance_34.alpha = 0;
 		this.instance_34._off = true;
@@ -4060,25 +4060,25 @@
 		this.timeline.addTween(cjs.Tween.get(this.instance_34).wait(84).to({_off:false},0).wait(1).to({alpha:0.1016},0).wait(1).to({alpha:0.1992},0).wait(1).to({alpha:0.3008},0).wait(1).to({alpha:0.3984},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.6016},0).wait(1).to({alpha:0.6992},0).wait(1).to({alpha:0.8008},0).wait(1).to({alpha:0.8984},0).wait(1).to({alpha:1},0).wait(179));
 	
 		// Ebene_31
-		this.instance_35 = new lib.Symbol5();
+		this.instance_35 = new bank_lib.Symbol5();
 		this.instance_35.setTransform(208.55,49.2,1,1,0,0,0,74.5,18.4);
 		this.instance_35._off = true;
 	
 		this.timeline.addTween(cjs.Tween.get(this.instance_35).wait(60).to({_off:false},0).wait(1).to({x:202.7,y:49.25},0).wait(1).to({x:196.85,y:49.3},0).wait(1).to({x:191,y:49.35},0).wait(1).to({x:185.15,y:49.45},0).wait(1).to({x:179.3,y:49.5},0).wait(1).to({x:173.45,y:49.55},0).wait(1).to({x:167.6,y:49.65},0).wait(1).to({x:161.75,y:49.7},0).wait(1).to({x:155.9,y:49.75},0).wait(1).to({x:150.05,y:49.8},0).wait(1).to({x:144.2,y:49.9},0).wait(1).to({x:138.35,y:49.95},0).wait(1).to({x:132.5,y:50},0).wait(1).to({x:126.65,y:50.1},0).wait(1).to({x:120.8,y:50.15},0).wait(1).to({x:114.95,y:50.2},0).wait(1).to({x:109.1,y:50.25},0).wait(1).to({x:103.25,y:50.35},0).wait(1).to({x:97.4,y:50.4},0).wait(1).to({x:91.55,y:50.45},0).wait(1).to({x:85.7,y:50.55},0).wait(1).to({x:79.85,y:50.6},0).wait(1).to({x:74,y:50.65},0).wait(1).to({x:68.15,y:50.75},0).to({_off:true},1).wait(188));
 	
 		// Finanzen_strich
-		this.instance_36 = new lib.Pfad9768();
+		this.instance_36 = new bank_lib.Pfad9768();
 		this.instance_36.setTransform(147,37);
 		this.instance_36._off = true;
 	
 		this.timeline.addTween(cjs.Tween.get(this.instance_36).wait(60).to({_off:false},0).wait(213));
 	
 		// Finanzen_plattform
-		this.instance_37 = new lib.Pfad8944();
+		this.instance_37 = new bank_lib.Pfad8944();
 		this.instance_37.setTransform(246.1,142.4,1,1,0,0,0,56.7,32.4);
 		this.instance_37.alpha = 0.8984;
 	
-		this.instance_38 = new lib.Pfad8943();
+		this.instance_38 = new bank_lib.Pfad8943();
 		this.instance_38.setTransform(281.05,114.2,1,1,0,0,0,87.2,44.2);
 		this.instance_38.alpha = 0.8984;
 	
@@ -4089,7 +4089,7 @@
 		this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_59,p:{y:156.65}},{t:this.instance_38,p:{y:114.2}},{t:this.instance_37,p:{y:142.4}}]}).to({state:[{t:this.shape_59,p:{y:155.9}},{t:this.instance_38,p:{y:113.45}},{t:this.instance_37,p:{y:141.65}}]},45).to({state:[{t:this.shape_59,p:{y:155.15}},{t:this.instance_38,p:{y:112.7}},{t:this.instance_37,p:{y:140.9}}]},1).to({state:[{t:this.shape_59,p:{y:154.4}},{t:this.instance_38,p:{y:111.95}},{t:this.instance_37,p:{y:140.15}}]},1).to({state:[{t:this.shape_59,p:{y:153.65}},{t:this.instance_38,p:{y:111.2}},{t:this.instance_37,p:{y:139.4}}]},1).to({state:[{t:this.shape_59,p:{y:152.9}},{t:this.instance_38,p:{y:110.45}},{t:this.instance_37,p:{y:138.65}}]},1).to({state:[{t:this.shape_59,p:{y:152.15}},{t:this.instance_38,p:{y:109.7}},{t:this.instance_37,p:{y:137.9}}]},1).to({state:[{t:this.shape_59,p:{y:151.4}},{t:this.instance_38,p:{y:108.95}},{t:this.instance_37,p:{y:137.15}}]},1).to({state:[{t:this.shape_59,p:{y:150.65}},{t:this.instance_38,p:{y:108.2}},{t:this.instance_37,p:{y:136.4}}]},1).to({state:[{t:this.shape_59,p:{y:149.9}},{t:this.instance_38,p:{y:107.45}},{t:this.instance_37,p:{y:135.65}}]},1).to({state:[{t:this.shape_59,p:{y:149.15}},{t:this.instance_38,p:{y:106.7}},{t:this.instance_37,p:{y:134.9}}]},1).to({state:[{t:this.shape_59,p:{y:148.4}},{t:this.instance_38,p:{y:105.95}},{t:this.instance_37,p:{y:134.15}}]},1).to({state:[{t:this.shape_59,p:{y:149.15}},{t:this.instance_38,p:{y:106.7}},{t:this.instance_37,p:{y:134.9}}]},1).to({state:[{t:this.shape_59,p:{y:149.9}},{t:this.instance_38,p:{y:107.45}},{t:this.instance_37,p:{y:135.65}}]},1).to({state:[{t:this.shape_59,p:{y:150.65}},{t:this.instance_38,p:{y:108.2}},{t:this.instance_37,p:{y:136.4}}]},1).to({state:[{t:this.shape_59,p:{y:151.4}},{t:this.instance_38,p:{y:108.95}},{t:this.instance_37,p:{y:137.15}}]},1).to({state:[{t:this.shape_59,p:{y:152.15}},{t:this.instance_38,p:{y:109.7}},{t:this.instance_37,p:{y:137.9}}]},1).to({state:[{t:this.shape_59,p:{y:152.9}},{t:this.instance_38,p:{y:110.45}},{t:this.instance_37,p:{y:138.65}}]},1).to({state:[{t:this.shape_59,p:{y:153.65}},{t:this.instance_38,p:{y:111.2}},{t:this.instance_37,p:{y:139.4}}]},1).to({state:[{t:this.shape_59,p:{y:154.4}},{t:this.instance_38,p:{y:111.95}},{t:this.instance_37,p:{y:140.15}}]},1).to({state:[{t:this.shape_59,p:{y:155.15}},{t:this.instance_38,p:{y:112.7}},{t:this.instance_37,p:{y:140.9}}]},1).to({state:[{t:this.shape_59,p:{y:155.9}},{t:this.instance_38,p:{y:113.45}},{t:this.instance_37,p:{y:141.65}}]},1).wait(208));
 	
 		// Bauen_Wohnen
-		this.instance_39 = new lib.BauenWohnen();
+		this.instance_39 = new bank_lib.BauenWohnen();
 		this.instance_39.setTransform(517.45,32.35,1,1,0,0,0,85.5,11.7);
 		this.instance_39.alpha = 0;
 		this.instance_39._off = true;
@@ -4097,29 +4097,29 @@
 		this.timeline.addTween(cjs.Tween.get(this.instance_39).wait(99).to({_off:false},0).wait(1).to({alpha:0.1016},0).wait(1).to({alpha:0.1992},0).wait(1).to({alpha:0.3008},0).wait(1).to({alpha:0.3984},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.6016},0).wait(1).to({alpha:0.6992},0).wait(2).to({alpha:0.8008},0).wait(1).to({alpha:0.8984},0).wait(1).to({alpha:1},0).wait(163));
 	
 		// Ebene_1
-		this.instance_40 = new lib.Symbol7();
+		this.instance_40 = new bank_lib.Symbol7();
 		this.instance_40.setTransform(521.15,64.05,1,1,0,0,0,98,21.2);
 		this.instance_40._off = true;
 	
 		this.timeline.addTween(cjs.Tween.get(this.instance_40).wait(74).to({_off:false},0).wait(1).to({x:528.65},0).wait(1).to({x:536.15},0).wait(1).to({x:543.7},0).wait(1).to({x:551.2},0).wait(1).to({x:558.7},0).wait(1).to({x:566.25},0).wait(1).to({x:573.75},0).wait(1).to({x:581.25},0).wait(1).to({x:588.8},0).wait(1).to({x:596.3},0).wait(1).to({x:603.8},0).wait(1).to({x:611.35},0).wait(1).to({x:618.85},0).wait(1).to({x:626.4},0).wait(1).to({x:633.9},0).wait(1).to({x:641.4},0).wait(1).to({x:648.95},0).wait(1).to({x:656.45},0).wait(1).to({x:663.95},0).wait(1).to({x:671.5},0).wait(1).to({x:679},0).wait(1).to({x:686.5},0).wait(1).to({x:694.05},0).wait(1).to({x:701.55},0).wait(1).to({x:709.1},0).to({_off:true},1).wait(173));
 	
 		// Bauen_Wohnen_strich
-		this.instance_41 = new lib.Pfad9769();
+		this.instance_41 = new bank_lib.Pfad9769();
 		this.instance_41.setTransform(423,51);
 		this.instance_41._off = true;
 	
 		this.timeline.addTween(cjs.Tween.get(this.instance_41).wait(74).to({_off:false},0).wait(199));
 	
 		// Bauen_Wohnen_plattform
-		this.instance_42 = new lib.Pfad8822();
+		this.instance_42 = new bank_lib.Pfad8822();
 		this.instance_42.setTransform(420.5,114,1,1,0,0,0,90.8,44.2);
 		this.instance_42.alpha = 0.8984;
 	
-		this.instance_43 = new lib.Pfad8821();
+		this.instance_43 = new bank_lib.Pfad8821();
 		this.instance_43.setTransform(349.15,111.15,1,1,0,0,0,23.5,41.3);
 		this.instance_43.alpha = 0.8984;
 	
-		this.instance_44 = new lib.Pfad8714();
+		this.instance_44 = new bank_lib.Pfad8714();
 		this.instance_44.setTransform(481.15,154.8,1,1,0,0,0,30,45);
 		this.instance_44.alpha = 0.8984;
 	
@@ -4130,11 +4130,12 @@
 		this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_60,p:{y:155.425}},{t:this.instance_44,p:{y:154.8}},{t:this.instance_43,p:{y:111.15}},{t:this.instance_42,p:{y:114}}]}).to({state:[{t:this.shape_60,p:{y:155.425}},{t:this.instance_44,p:{y:154.8}},{t:this.instance_43,p:{y:111.15}},{t:this.instance_42,p:{y:114}}]},59).to({state:[{t:this.shape_60,p:{y:154.675}},{t:this.instance_44,p:{y:154.05}},{t:this.instance_43,p:{y:110.4}},{t:this.instance_42,p:{y:113.25}}]},1).to({state:[{t:this.shape_60,p:{y:153.925}},{t:this.instance_44,p:{y:153.3}},{t:this.instance_43,p:{y:109.65}},{t:this.instance_42,p:{y:112.5}}]},1).to({state:[{t:this.shape_60,p:{y:153.175}},{t:this.instance_44,p:{y:152.55}},{t:this.instance_43,p:{y:108.9}},{t:this.instance_42,p:{y:111.75}}]},1).to({state:[{t:this.shape_60,p:{y:152.425}},{t:this.instance_44,p:{y:151.8}},{t:this.instance_43,p:{y:108.15}},{t:this.instance_42,p:{y:111}}]},1).to({state:[{t:this.shape_60,p:{y:151.675}},{t:this.instance_44,p:{y:151.05}},{t:this.instance_43,p:{y:107.4}},{t:this.instance_42,p:{y:110.25}}]},1).to({state:[{t:this.shape_60,p:{y:150.925}},{t:this.instance_44,p:{y:150.3}},{t:this.instance_43,p:{y:106.65}},{t:this.instance_42,p:{y:109.5}}]},1).to({state:[{t:this.shape_60,p:{y:150.175}},{t:this.instance_44,p:{y:149.55}},{t:this.instance_43,p:{y:105.9}},{t:this.instance_42,p:{y:108.75}}]},1).to({state:[{t:this.shape_60,p:{y:149.425}},{t:this.instance_44,p:{y:148.8}},{t:this.instance_43,p:{y:105.15}},{t:this.instance_42,p:{y:108}}]},1).to({state:[{t:this.shape_60,p:{y:148.675}},{t:this.instance_44,p:{y:148.05}},{t:this.instance_43,p:{y:104.4}},{t:this.instance_42,p:{y:107.25}}]},1).to({state:[{t:this.shape_60,p:{y:147.925}},{t:this.instance_44,p:{y:147.3}},{t:this.instance_43,p:{y:103.65}},{t:this.instance_42,p:{y:106.5}}]},1).to({state:[{t:this.shape_60,p:{y:148.675}},{t:this.instance_44,p:{y:148.05}},{t:this.instance_43,p:{y:104.4}},{t:this.instance_42,p:{y:107.25}}]},1).to({state:[{t:this.shape_60,p:{y:149.425}},{t:this.instance_44,p:{y:148.8}},{t:this.instance_43,p:{y:105.15}},{t:this.instance_42,p:{y:108}}]},1).to({state:[{t:this.shape_60,p:{y:150.175}},{t:this.instance_44,p:{y:149.55}},{t:this.instance_43,p:{y:105.9}},{t:this.instance_42,p:{y:108.75}}]},1).to({state:[{t:this.shape_60,p:{y:150.925}},{t:this.instance_44,p:{y:150.3}},{t:this.instance_43,p:{y:106.65}},{t:this.instance_42,p:{y:109.5}}]},1).to({state:[{t:this.shape_60,p:{y:151.675}},{t:this.instance_44,p:{y:151.05}},{t:this.instance_43,p:{y:107.4}},{t:this.instance_42,p:{y:110.25}}]},1).to({state:[{t:this.shape_60,p:{y:152.425}},{t:this.instance_44,p:{y:151.8}},{t:this.instance_43,p:{y:108.15}},{t:this.instance_42,p:{y:111}}]},1).to({state:[{t:this.shape_60,p:{y:153.175}},{t:this.instance_44,p:{y:152.55}},{t:this.instance_43,p:{y:108.9}},{t:this.instance_42,p:{y:111.75}}]},1).to({state:[{t:this.shape_60,p:{y:153.925}},{t:this.instance_44,p:{y:153.3}},{t:this.instance_43,p:{y:109.65}},{t:this.instance_42,p:{y:112.5}}]},1).to({state:[{t:this.shape_60,p:{y:154.675}},{t:this.instance_44,p:{y:154.05}},{t:this.instance_43,p:{y:110.4}},{t:this.instance_42,p:{y:113.25}}]},1).to({state:[{t:this.shape_60,p:{y:155.425}},{t:this.instance_44,p:{y:154.8}},{t:this.instance_43,p:{y:111.15}},{t:this.instance_42,p:{y:114}}]},1).wait(194));
 	
 		this._renderFirstFrame();
+		return false;
 	
-	}).prototype = p = new lib.AnMovieClip();
+	}).prototype = p = new bank_lib.AnMovieClip();
 	p.nominalBounds = new cjs.Rectangle(297.5,214,909.8,213.60000000000002);
 	// library properties:
-	lib.properties = {
+	bank_lib.properties = {
 		id: 'AC6F0B0F752642EFA64A2FD5D3E5C8F2',
 		width: 910,
 		height: 428,
@@ -4156,19 +4157,19 @@
 
 	// bootstrap callback support:
 	
-	(lib.Stage = function(canvas) {
+	(bank_lib.Stage = function(canvas) {
 		createjs.Stage.call(this, canvas);
 	}).prototype = p = new createjs.Stage();
 	
-	p.setAutoPlay = function(autoPlay) {
-		this.tickEnabled = autoPlay;
-	}
-	p.play = function() { this.tickEnabled = true; this.getChildAt(0).gotoAndPlay(this.getTimelinePosition()) }
-	p.stop = function(ms) { if(ms) this.seek(ms); this.tickEnabled = false; }
-	p.seek = function(ms) { this.tickEnabled = true; this.getChildAt(0).gotoAndStop(lib.properties.fps * ms / 1000); }
-	p.getDuration = function() { return this.getChildAt(0).totalFrames / lib.properties.fps * 1000; }
+	// p.setAutoPlay = function(autoPlay) {
+	// 	this.tickEnabled = autoPlay;
+	// }
+	// p.play = function() { this.tickEnabled = true; this.getChildAt(0).gotoAndPlay(this.getTimelinePosition()) }
+	// p.stop = function(ms) { if(ms) this.seek(ms); this.tickEnabled = false; }
+	// p.seek = function(ms) { this.tickEnabled = true; this.getChildAt(0).gotoAndStop(bank_lib.properties.fps * ms / 1000); }
+	// p.getDuration = function() { return this.getChildAt(0).totalFrames / bank_lib.properties.fps * 1000; }
 	
-	p.getTimelinePosition = function() { return this.getChildAt(0).currentFrame / lib.properties.fps * 1000; }
+	// p.getTimelinePosition = function() { return this.getChildAt(0).currentFrame / bank_lib.properties.fps * 1000; }
 	
 	an.bootcompsLoaded = an.bootcompsLoaded || [];
 	if(!an.bootstrapListeners) {
@@ -4187,12 +4188,12 @@
 	an.compositions = an.compositions || {};
 	an.compositions['AC6F0B0F752642EFA64A2FD5D3E5C8F2'] = {
 		getStage: function() { return exportRoot.stage; },
-		getLibrary: function() { return lib; },
+		getLibrary: function() { return bank_lib; },
 		getSpriteSheet: function() { return ss; },
 		getImages: function() { return img; }
 	};
 	
-	an.compositionLoaded = function(id) {
+	an.bank_compositionLoaded = function(id) {
 		an.bootcompsLoaded.push(id);
 		for(var j=0; j<an.bootstrapListeners.length; j++) {
 			an.bootstrapListeners[j](id);
@@ -4209,7 +4210,7 @@
 		window.addEventListener('resize', resizeCanvas);		
 		resizeCanvas();		
 		function resizeCanvas() {			
-			var w = lib.properties.width, h = lib.properties.height;			
+			var w = bank_lib.properties.width, h = bank_lib.properties.height;			
 			var iw = window.innerWidth, ih=window.innerHeight;			
 			var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;			
 			if(isResp) {                
@@ -4250,7 +4251,6 @@
 		}
 	}
 	
-	
 	})(createjs = createjs||{}, AdobeAn = AdobeAn||{});
 	var createjs, AdobeAn;
 
@@ -4261,12 +4261,12 @@ function bank_init() {
 	anim_container = document.getElementById("bank_animation_container");
 	dom_overlay_container = document.getElementById("bank_dom_overlay_container");
 	var comp = AdobeAn.getComposition("AC6F0B0F752642EFA64A2FD5D3E5C8F2");
-	var lib = comp.getLibrary();
+	var bank_lib = comp.getLibrary();
 	var loader = new createjs.LoadQueue(false);
 	loader.addEventListener("fileload", function (evt) { handleFileLoad(evt, comp) });
 	loader.addEventListener("complete", function (evt) { bank_handleComplete(evt, comp) });
-	var lib = comp.getLibrary();
-	loader.loadManifest(lib.properties.manifest);
+	var bank_lib = comp.getLibrary();
+	loader.loadManifest(bank_lib.properties.manifest);
 }
 function handleFileLoad(evt, comp) {
 	var images = comp.getImages();
@@ -4274,23 +4274,23 @@ function handleFileLoad(evt, comp) {
 }
 function bank_handleComplete(evt, comp) {
 	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
-	var lib = comp.getLibrary();
+	var bank_lib = comp.getLibrary();
 	var ss = comp.getSpriteSheet();
 	var queue = evt.target;
-	var ssMetadata = lib.ssMetadata;
+	var ssMetadata = bank_lib.ssMetadata;
 	for (i = 0; i < ssMetadata.length; i++) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet({ "images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames })
 	}
-	exportRoot = new lib.Bank_module_animation();
-	stage = new lib.Stage(bank_canvas);
+	exportRoot = new bank_lib.Bank_module_animation();
+	stage = new bank_lib.Stage(bank_canvas);
 	//Registers the "tick" event listener.
 	fnStartAnimation = function () {
 		stage.addChild(exportRoot);
-		createjs.Ticker.framerate = lib.properties.fps;
+		createjs.Ticker.framerate = bank_lib.properties.fps;
 		createjs.Ticker.addEventListener("tick", stage);
 	}
 	//Code to support hidpi screens and responsive scaling.
 	AdobeAn.bank_makeResponsive(true, 'both', true, 1, [bank_canvas, anim_container, dom_overlay_container]);
-	AdobeAn.compositionLoaded(lib.properties.id);
+	AdobeAn.bank_compositionLoaded(bank_lib.properties.id);
 	fnStartAnimation();
 }

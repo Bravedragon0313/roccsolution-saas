@@ -8,7 +8,7 @@
     top:0;bottom:0;
 }
 
-#bank_canvas, #platform_canvas, #massimor_canvas, #platform_animation_container, #bank_animation_container, #massimor_animation_container,#platform_dom_overlay_container, #scheibe_dom_overlay_container{
+#bank_canvas, #platform_canvas, #bank_dom_overlay_container, #massimor_canvas, #platform_animation_container, #bank_animation_container, #massimor_animation_container,#platform_dom_overlay_container, #massimor_dom_overlay_container, #scheibe_dom_overlay_container{
     width: 100% !important;
     height: unset !important;
 }

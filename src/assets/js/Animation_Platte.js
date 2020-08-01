@@ -90,7 +90,7 @@ if (reversed == null) { reversed = false; }
 
 // stage content:
 (plata_lib.plata_Animation_Oursolutions_Plattform = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
+if (loop == null) { loop = false; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;

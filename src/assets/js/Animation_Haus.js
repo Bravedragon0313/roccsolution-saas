@@ -1,3 +1,4 @@
+var ani_router = 'test';
 (function (cjs, an) {
 
 var p; // shortcut to reference prototypes
@@ -24,8 +25,6 @@ hause_lib.ssMetadata = [
 }).prototype = p = new cjs.MovieClip();
 // symbols:
 
-
-
 (hause_lib.CachedBmp_1 = function() {
 	this.initialize(ss["Animation_Haus_atlas_1"]);
 	this.gotoAndStop(0);
@@ -47,7 +46,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	prototype.frameBounds = frameBounds;
 	return prototype;
 	}
-
 
 (hause_lib.Symbol6 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
@@ -71,7 +69,6 @@ if (reversed == null) { reversed = false; }
 
 }).prototype = getMCSymbolPrototype(hause_lib.Symbol6, new cjs.Rectangle(0,0,307.8,168.7), null);
 
-
 (hause_lib.Symbol5 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -93,10 +90,9 @@ if (reversed == null) { reversed = false; }
 
 }).prototype = getMCSymbolPrototype(hause_lib.Symbol5, new cjs.Rectangle(0,-0.5,145,317), null);
 
-
 // stage content:
 (hause_lib.haus_Animation_Oursolutions = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
+if (loop == null) { loop = false; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
@@ -110,7 +106,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new hause_lib.Symbol5();
 	this.instance.setTransform(155.5,158.45,1,1,0,0,0,72.5,158.2);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regY:158,x:155.45,y:161.55},0).wait(1).to({y:164.85},0).wait(1).to({y:168.15},0).wait(1).to({x:155.4,y:171.45},0).wait(1).to({y:174.75},0).wait(1).to({y:178.05},0).wait(1).to({x:155.35,y:181.35},0).wait(1).to({y:184.65},0).wait(1).to({y:187.95},0).wait(1).to({x:155.3,y:191.25},0).wait(1).to({y:194.55},0).wait(1).to({y:197.85},0).wait(1).to({x:155.25,y:201.15},0).wait(1).to({y:204.45},0).wait(1).to({y:207.75},0).wait(1).to({x:155.2,y:211.05},0).wait(1).to({y:214.35},0).wait(1).to({y:217.65},0).wait(1).to({x:155.15,y:220.95},0).wait(1).to({y:224.25},0).wait(1).to({y:227.55},0).wait(1).to({x:155.1,y:230.85},0).wait(1).to({y:234.15},0).wait(1).to({y:237.45},0).wait(1).to({x:155.05,y:240.75},0).wait(1).to({y:244.05},0).wait(1).to({y:247.35},0).wait(1).to({x:155,y:250.65},0).wait(1).to({y:253.95},0).wait(1).to({y:257.25},0).wait(1).to({x:154.95,y:260.55},0).wait(1).to({y:263.85},0).wait(1).to({y:267.15},0).wait(1).to({x:154.9,y:270.45},0).wait(1).to({y:273.75},0).wait(1).to({y:277.05},0).wait(1).to({x:154.85,y:280.35},0).wait(1).to({y:283.65},0).wait(1).to({y:286.95},0).wait(1).to({x:154.8,y:290.25},0).wait(1).to({y:293.55},0).wait(1).to({y:296.85},0).wait(1).to({x:154.75,y:300.15},0).wait(1).to({y:303.45},0).wait(1).to({y:306.75},0).wait(1).to({x:154.7,y:310.05},0).wait(1).to({y:313.35},0).wait(1).to({y:316.65},0).wait(1).to({x:154.65,y:319.95},0).wait(1).to({y:323.3},0).wait(1).to({y:326.6},0).wait(1).to({x:154.6,y:329.9},0).wait(1).to({y:333.2},0).wait(1).to({y:336.5},0).wait(1).to({x:154.55,y:339.8},0).wait(1).to({y:343.1},0).wait(1).to({y:346.4},0).wait(1).to({x:154.5,y:349.7},0).wait(1).to({y:353},0).wait(1).to({y:356.3},0).wait(1).to({x:154.45,y:359.6},0).wait(1).to({y:362.9},0).wait(1).to({y:366.2},0).wait(1).to({x:154.4,y:369.5},0).wait(1).to({y:372.8},0).wait(1).to({y:376.1},0).wait(1).to({x:154.35,y:379.4},0).wait(1).to({y:382.7},0).wait(1).to({y:386},0).wait(1).to({x:154.3,y:389.3},0).wait(1).to({y:392.6},0).wait(1).to({y:395.9},0).wait(1).to({x:154.25,y:399.2},0).wait(1).to({y:402.5},0).wait(1).to({y:405.8},0).wait(1).to({x:154.2,y:409.1},0).wait(1).to({y:412.4},0).wait(1).to({y:415.7},0).wait(1).to({x:154.15,y:419},0).wait(1).to({y:422.3},0).wait(1).to({y:425.6},0).wait(1).to({x:154.1,y:428.9},0).wait(1).to({y:432.2},0).wait(1).to({y:435.5},0).wait(1).to({x:154.05,y:438.8},0).wait(1).to({y:442.1},0).wait(1).to({y:445.4},0).wait(1).to({x:154,y:448.7},0).wait(1).to({y:452},0).wait(1).to({y:455.3},0).wait(1).to({x:153.95,y:458.6},0).wait(1).to({y:461.9},0).wait(1).to({y:465.2},0).wait(1).to({x:153.9,y:468.5},0).wait(1).to({y:471.8},0).wait(1).to({y:475.1},0).wait(1).to({x:153.85,y:478.4},0).wait(1).to({y:481.7},0).wait(1).to({y:485},0).wait(1).to({y:488.35},0).wait(22).to({regY:158.2,y:488.55},0).wait(1).to({regY:158,y:488.35},0).wait(77).to({_off:true},1).wait(69));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regY:158,x:155.45,y:161.55},0).wait(1).to({y:164.85},0).wait(1).to({y:168.15},0).wait(1).to({x:155.4,y:171.45},0).wait(1).to({y:174.75},0).wait(1).to({y:178.05},0).wait(1).to({x:155.35,y:181.35},0).wait(1).to({y:184.65},0).wait(1).to({y:187.95},0).wait(1).to({x:155.3,y:191.25},0).wait(1).to({y:194.55},0).wait(1).to({y:197.85},0).wait(1).to({x:155.25,y:201.15},0).wait(1).to({y:204.45},0).wait(1).to({y:207.75},0).wait(1).to({x:155.2,y:211.05},0).wait(1).to({y:214.35},0).wait(1).to({y:217.65},0).wait(1).to({x:155.15,y:220.95},0).wait(1).to({y:224.25},0).wait(1).to({y:227.55},0).wait(1).to({x:155.1,y:230.85},0).wait(1).to({y:234.15},0).wait(1).to({y:237.45},0).wait(1).to({x:155.05,y:240.75},0).wait(1).to({y:244.05},0).wait(1).to({y:247.35},0).wait(1).to({x:155,y:250.65},0).wait(1).to({y:253.95},0).wait(1).to({y:257.25},0).wait(1).to({x:154.95,y:260.55},0).wait(1).to({y:263.85},0).wait(1).to({y:267.15},0).wait(1).to({x:154.9,y:270.45},0).wait(1).to({y:273.75},0).wait(1).to({y:277.05},0).wait(1).to({x:154.85,y:280.35},0).wait(1).to({y:283.65},0).wait(1).to({y:286.95},0).wait(1).to({x:154.8,y:290.25},0).wait(1).to({y:293.55},0).wait(1).to({y:296.85},0).wait(1).to({x:154.75,y:300.15},0).wait(1).to({y:303.45},0).wait(1).to({y:306.75},0).wait(1).to({x:154.7,y:310.05},0).wait(1).to({y:313.35},0).wait(1).to({y:316.65},0).wait(1).to({x:154.65,y:319.95},0).wait(1).to({y:323.3},0).wait(1).to({y:326.6},0).wait(1).to({x:154.6,y:329.9},0).wait(1).to({y:333.2},0).wait(1).to({y:336.5},0).wait(1).to({x:154.55,y:339.8},0).wait(1).to({y:343.1},0).wait(1).to({y:346.4},0).wait(1).to({x:154.5,y:349.7},0).wait(1).to({y:353},0).wait(1).to({y:356.3},0).wait(1).to({x:154.45,y:359.6},0).wait(1).to({y:362.9},0).wait(1).to({y:366.2},0).wait(1).to({x:154.4,y:369.5},0).wait(1).to({y:372.8},0).wait(1).to({y:376.1},0).wait(1).to({x:154.35,y:379.4},0).wait(1).to({y:382.7},0).wait(1).to({y:386},0).wait(1).to({x:154.3,y:389.3},0).wait(1).to({y:392.6},0).wait(1).to({y:395.9},0).wait(1).to({x:154.25,y:399.2},0).wait(1).to({y:402.5},0).wait(1).to({y:405.8},0).wait(1).to({x:154.2,y:409.1},0).wait(1).to({y:412.4},0).wait(1).to({y:415.7},0).wait(1).to({x:154.15,y:419},0).wait(1).to({y:422.3},0).wait(1).to({y:425.6},0).wait(1).to({x:154.1,y:428.9},0).wait(1).to({y:432.2},0).wait(1).to({y:435.5},0).wait(1).to({x:154.05,y:438.8},0).wait(1).to({y:442.1},0).wait(1).to({y:445.4},0).wait(1).to({x:154,y:448.7},0).wait(1).to({y:452},0).wait(1).to({y:455.3},0).wait(1).to({x:153.95,y:458.6},0).wait(1).to({y:461.9},0).wait(1).to({y:465.2},0).wait(1).to({x:153.9,y:468.5},0).wait(1).to({y:471.8},0).wait(1).to({y:475.1},0).wait(1).to({x:153.85,y:478.4},0).wait(1).to({y:481.7},0).wait(1).to({y:485},0).wait(1).to({y:488.35},0).wait(22).to({regY:158.2,y:488.55},0).wait(1).to({regY:158,y:488.35},0).wait(78));
 
 	// Boden_haus
 	this.instance_1 = new hause_lib.Symbol6();
@@ -118,12 +114,12 @@ if (reversed == null) { reversed = false; }
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(91).to({_off:false},0).wait(1).to({y:591.8,alpha:0.1016},0).wait(1).to({alpha:0.1992},0).wait(1).to({alpha:0.3008},0).wait(1).to({alpha:0.3984},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.6016},0).wait(1).to({alpha:0.6992},0).wait(1).to({alpha:0.8008},0).wait(1).to({alpha:0.8984},0).wait(1).to({y:591.6,alpha:1},0).wait(99).to({y:591.8},0).to({_off:true},1).wait(69));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(91).to({_off:false},0).wait(1).to({y:591.8,alpha:0.1016},0).wait(1).to({alpha:0.1992},0).wait(1).to({alpha:0.3008},0).wait(1).to({alpha:0.3984},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.6016},0).wait(1).to({alpha:0.6992},0).wait(1).to({alpha:0.8008},0).wait(1).to({alpha:0.8984},0).wait(1).to({y:591.6,alpha:1},0).wait(99).to({y:591.8},0).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new hause_lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,307.8,676.2);
+p.nominalBounds = new cjs.Rectangle(153.5,337.8,154.3,338.40000000000003);
 // library properties:
 hause_lib.properties = {
 	id: '8315BD46164541438BC7F7CB0B0E3C8F',

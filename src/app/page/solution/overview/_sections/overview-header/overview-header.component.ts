@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+// import { Route } from '@angular/compiler/src/core';
+import { Router } from '@angular/router'
 
 @Component({
   selector: 'app-overview-header',
@@ -7,13 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OverviewHeaderComponent implements OnInit {
 
-  constructor() {
+  constructor(
+
+    private router: Router
+  ) {
 
     this.checkLoadElement();
 
   }
   checkLoadElement() {
+
     console.log('Here linien');
+    var count = 0;
     let canvas = document.getElementById("haus_canvas");
     let anim_container = document.getElementById("haus_animation_container");
     let dom_overlay_container = document.getElementById("haus_dom_overlay_container");
@@ -28,14 +35,33 @@ export class OverviewHeaderComponent implements OnInit {
         this.checkLoadElement();
       }, 200);
     } else {
+console.log("...here...")
+      this.router.routeReuseStrategy.shouldReuseRoute = function () {
+        return false;
+      };
       console.log('here clicked overview')
-        document.getElementById('haus_trigger-click').click();
-        document.getElementById('module_trigger-click').click();
-        document.getElementById('plata_trigger-click').click();
-      
+      console.log("here module top", plata_anim_container.getBoundingClientRect().top)
+      document.addEventListener('scroll', () => {
+        console.log("y", window.scrollY);
+        if (window.scrollY >= anim_container.getBoundingClientRect().top && count == 0) {
+          if (document.getElementById('haus_trigger-click')){
+            document.getElementById('haus_trigger-click').click();
+          }
+          count = 1;
+        }
+        if (window.scrollY >= module_anim_container.getBoundingClientRect().top && count == 1) {
+          document.getElementById('module_trigger-click').click();
+
+          count = 2;
+        }
+        if (window.scrollY >= plata_anim_container.getBoundingClientRect().top && count == 2) {
+          document.getElementById('plata_trigger-click').click();
+
+          count = 3;
+        }
+      })
     }
   }
   ngOnInit() {
   }
-
 }

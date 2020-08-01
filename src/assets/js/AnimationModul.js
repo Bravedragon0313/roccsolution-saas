@@ -95,7 +95,7 @@ if (reversed == null) { reversed = false; }
 
 // stage content:
 (module_lib.module_Animation_Oursolutions_Modul = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
+if (loop == null) { loop = false; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
@@ -105,11 +105,10 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Modul
 	this.instance = new module_lib.Symbol3();
 	this.instance.setTransform(153.8,129.1,1,1,0,0,0,107.2,129.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regY:129,y:132.15},0).wait(1).to({y:135.3},0).wait(1).to({y:138.5},0).wait(1).to({y:141.65},0).wait(1).to({y:144.85},0).wait(1).to({y:148},0).wait(1).to({y:151.15},0).wait(1).to({y:154.35},0).wait(1).to({y:157.5},0).wait(1).to({y:160.7},0).wait(1).to({y:163.85},0).wait(1).to({y:167},0).wait(1).to({y:170.2},0).wait(1).to({y:173.35},0).wait(1).to({y:176.55},0).wait(1).to({y:179.7},0).wait(1).to({y:182.85},0).wait(1).to({y:186.05},0).wait(1).to({y:189.2},0).wait(1).to({y:192.4},0).wait(1).to({y:195.55},0).wait(1).to({y:198.7},0).wait(1).to({y:201.9},0).wait(1).to({y:205.05},0).wait(1).to({y:208.25},0).wait(1).to({y:211.4},0).wait(1).to({y:214.55},0).wait(1).to({y:217.75},0).wait(1).to({y:220.9},0).wait(1).to({y:224.1},0).wait(1).to({y:227.25},0).wait(1).to({y:230.4},0).wait(1).to({y:233.6},0).wait(1).to({y:236.75},0).wait(1).to({y:239.95},0).wait(1).to({y:243.1},0).wait(1).to({y:246.25},0).wait(1).to({y:249.45},0).wait(1).to({y:252.6},0).wait(1).to({y:255.8},0).wait(1).to({y:258.95},0).wait(1).to({y:262.1},0).wait(1).to({y:265.3},0).wait(1).to({y:268.45},0).wait(1).to({y:271.65},0).wait(1).to({y:274.8},0).wait(1).to({y:277.95},0).wait(1).to({y:281.15},0).wait(1).to({y:284.3},0).wait(1).to({y:287.5},0).wait(1).to({y:290.65},0).wait(1).to({y:293.8},0).wait(1).to({y:297},0).wait(1).to({y:300.15},0).wait(1).to({y:303.35},0).wait(1).to({y:306.5},0).wait(1).to({y:309.65},0).wait(1).to({y:312.85},0).wait(1).to({y:316},0).wait(1).to({y:319.2},0).wait(1).to({y:322.35},0).wait(1).to({y:325.5},0).wait(1).to({y:328.7},0).wait(1).to({y:331.85},0).wait(1).to({y:335.05},0).wait(1).to({y:338.2},0).wait(1).to({y:341.35},0).wait(1).to({y:344.55},0).wait(1).to({y:347.7},0).wait(1).to({y:350.9},0).wait(1).to({y:354.05},0).wait(1).to({y:357.2},0).wait(1).to({y:360.4},0).wait(1).to({y:363.55},0).wait(1).to({y:366.75},0).wait(1).to({y:369.9},0).wait(1).to({y:373.05},0).wait(1).to({y:376.25},0).wait(1).to({y:379.4},0).wait(1).to({y:382.6},0).wait(1).to({y:385.75},0).wait(1).to({y:388.9},0).wait(1).to({y:392.1},0).wait(1).to({y:395.25},0).wait(1).to({y:398.45},0).wait(1).to({y:401.6},0).wait(1).to({y:404.75},0).wait(1).to({y:407.95},0).wait(1).to({y:411.1},0).wait(1).to({y:414.3},0).wait(1).to({y:417.45},0).wait(1).to({y:420.6},0).wait(1).to({y:423.8},0).wait(1).to({y:426.95},0).wait(1).to({y:430.15},0).wait(1).to({y:433.3},0).wait(1).to({y:436.45},0).wait(1).to({y:439.65},0).wait(1).to({y:442.8},0).wait(1).to({y:446},0).wait(1).to({regY:129.1,y:446.1},0).wait(1).to({regY:129,y:446},0).wait(133).to({_off:true},1).wait(34));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regY:129,y:132.15},0).wait(1).to({y:135.3},0).wait(1).to({y:138.5},0).wait(1).to({y:141.65},0).wait(1).to({y:144.85},0).wait(1).to({y:148},0).wait(1).to({y:151.15},0).wait(1).to({y:154.35},0).wait(1).to({y:157.5},0).wait(1).to({y:160.7},0).wait(1).to({y:163.85},0).wait(1).to({y:167},0).wait(1).to({y:170.2},0).wait(1).to({y:173.35},0).wait(1).to({y:176.55},0).wait(1).to({y:179.7},0).wait(1).to({y:182.85},0).wait(1).to({y:186.05},0).wait(1).to({y:189.2},0).wait(1).to({y:192.4},0).wait(1).to({y:195.55},0).wait(1).to({y:198.7},0).wait(1).to({y:201.9},0).wait(1).to({y:205.05},0).wait(1).to({y:208.25},0).wait(1).to({y:211.4},0).wait(1).to({y:214.55},0).wait(1).to({y:217.75},0).wait(1).to({y:220.9},0).wait(1).to({y:224.1},0).wait(1).to({y:227.25},0).wait(1).to({y:230.4},0).wait(1).to({y:233.6},0).wait(1).to({y:236.75},0).wait(1).to({y:239.95},0).wait(1).to({y:243.1},0).wait(1).to({y:246.25},0).wait(1).to({y:249.45},0).wait(1).to({y:252.6},0).wait(1).to({y:255.8},0).wait(1).to({y:258.95},0).wait(1).to({y:262.1},0).wait(1).to({y:265.3},0).wait(1).to({y:268.45},0).wait(1).to({y:271.65},0).wait(1).to({y:274.8},0).wait(1).to({y:277.95},0).wait(1).to({y:281.15},0).wait(1).to({y:284.3},0).wait(1).to({y:287.5},0).wait(1).to({y:290.65},0).wait(1).to({y:293.8},0).wait(1).to({y:297},0).wait(1).to({y:300.15},0).wait(1).to({y:303.35},0).wait(1).to({y:306.5},0).wait(1).to({y:309.65},0).wait(1).to({y:312.85},0).wait(1).to({y:316},0).wait(1).to({y:319.2},0).wait(1).to({y:322.35},0).wait(1).to({y:325.5},0).wait(1).to({y:328.7},0).wait(1).to({y:331.85},0).wait(1).to({y:335.05},0).wait(1).to({y:338.2},0).wait(1).to({y:341.35},0).wait(1).to({y:344.55},0).wait(1).to({y:347.7},0).wait(1).to({y:350.9},0).wait(1).to({y:354.05},0).wait(1).to({y:357.2},0).wait(1).to({y:360.4},0).wait(1).to({y:363.55},0).wait(1).to({y:366.75},0).wait(1).to({y:369.9},0).wait(1).to({y:373.05},0).wait(1).to({y:376.25},0).wait(1).to({y:379.4},0).wait(1).to({y:382.6},0).wait(1).to({y:385.75},0).wait(1).to({y:388.9},0).wait(1).to({y:392.1},0).wait(1).to({y:395.25},0).wait(1).to({y:398.45},0).wait(1).to({y:401.6},0).wait(1).to({y:404.75},0).wait(1).to({y:407.95},0).wait(1).to({y:411.1},0).wait(1).to({y:414.3},0).wait(1).to({y:417.45},0).wait(1).to({y:420.6},0).wait(1).to({y:423.8},0).wait(1).to({y:426.95},0).wait(1).to({y:430.15},0).wait(1).to({y:433.3},0).wait(1).to({y:436.45},0).wait(1).to({y:439.65},0).wait(1).to({y:442.8},0).wait(1).to({y:446},0).wait(1).to({regY:129.1,y:446.1},0).wait(1).to({regY:129,y:446},0).wait(134));
 
 	// Boden_modul
 	this.instance_1 = new module_lib.Symbol4();
@@ -117,12 +116,12 @@ if (reversed == null) { reversed = false; }
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(89).to({_off:false},0).wait(1).to({y:524.95,alpha:0.1016},0).wait(1).to({alpha:0.1992},0).wait(1).to({alpha:0.3008},0).wait(1).to({alpha:0.3984},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.6016},0).wait(1).to({alpha:0.6992},0).wait(1).to({alpha:0.8008},0).wait(1).to({alpha:0.8984},0).wait(1).to({alpha:1},0).to({_off:true},137).wait(34));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(89).to({_off:false},0).wait(1).to({y:524.95,alpha:0.1016},0).wait(1).to({alpha:0.1992},0).wait(1).to({alpha:0.3008},0).wait(1).to({alpha:0.3984},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.6016},0).wait(1).to({alpha:0.6992},0).wait(1).to({alpha:0.8008},0).wait(1).to({alpha:0.8984},0).wait(1).to({alpha:1},0).wait(137));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new module_lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,307.8,609.3);
+p.nominalBounds = new cjs.Rectangle(153.5,304.5,154.3,304.79999999999995);
 // library properties:
 module_lib.properties = {
 	id: '8315BD46164541438BC7F7CB0B0E3C8F',

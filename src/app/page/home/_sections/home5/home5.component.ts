@@ -7,25 +7,23 @@ declare var AdobeAn, createjs;
 })
 export class Home5Component implements OnInit {
 
-  constructor() {
-    console.log(AdobeAn);
-    this.checkLoadElement();
-  }
-
-  checkLoadElement() {
-    let canvas = document.getElementById("platform_canvas");
-    let anim_container = document.getElementById("platform_animation_container");
-    let dom_overlay_container = document.getElementById("platform_dom_overlay_container");
-    if (!canvas || !anim_container || !dom_overlay_container) {
-      setTimeout(() => {
-        this.checkLoadElement();
-      }, 200);
-    } else {
-      console.log("here platform click")
-      document.getElementById('platform_trigger-click').click();
-    }
-  }
+  constructor() { }
 
   ngOnInit() {
+  }
+  
+  ngAfterViewInit(): void {
+    var count = 0;
+    let anim_container = document.getElementById("platform_animation_container");
+ 
+    document.addEventListener('scroll', () => {
+      if (window.scrollY >= anim_container.getBoundingClientRect().top*1.1 && count == 0) {
+        if(anim_container){
+          // document.getElementById('platform_trigger-click').click();
+        }
+        
+        count  = 1;
+      }
+    });
   }
 }

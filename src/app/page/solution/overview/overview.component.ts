@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+declare var ani_router;
 @Component({
   selector: 'app-overview',
   templateUrl: './overview.component.html',

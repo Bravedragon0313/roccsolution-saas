@@ -7,26 +7,23 @@ declare var AdobeAn;
 })
 export class Home7Component implements OnInit {
 
-  constructor() {
-
-    console.log(AdobeAn);
-    this.checkLoadElement();
-
-  }
-  checkLoadElement() {
-    console.log('Here scheibe');
-    let canvas = document.getElementById("scheibe_canvas");
-    let anim_container = document.getElementById("scheibe_animation_container");
-    let dom_overlay_container = document.getElementById("scheibe_dom_overlay_container");
-    if (!canvas || !anim_container || !dom_overlay_container) {
-      setTimeout(() => {
-        this.checkLoadElement();
-      }, 200);
-    } else {
-      console.log('here clicked scheibe')
-      document.getElementById('scheibe_trigger-click').click();
-    }
-  }
+  constructor() { }
+  
   ngOnInit() {
+  }
+   
+  ngAfterViewInit(): void {
+    var count = 0;
+    let anim_container = document.getElementById("scheibe_animation_container");
+ 
+    document.addEventListener('scroll', () => {
+      if (window.scrollY >= anim_container.getBoundingClientRect().top*1.1 && count == 0) {
+        if(anim_container){
+          // document.getElementById('scheibe_trigger-click').click();
+
+        }
+        count  = 1;
+      }
+    });
   }
 }

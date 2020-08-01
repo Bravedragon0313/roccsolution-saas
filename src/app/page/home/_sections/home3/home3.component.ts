@@ -7,27 +7,20 @@ declare var AdobeAn;
 })
 export class Home3Component implements OnInit {
  
-  constructor() {
+  constructor() { }
 
-    console.log(AdobeAn);
-    this.checkLoadElement();
-
-  }
-  checkLoadElement() {
-    console.log('Here');
-    let canvas = document.getElementById("massimor_canvas");
-    let anim_container = document.getElementById("massimor_animation_container");
-    let dom_overlay_container = document.getElementById("massimor_dom_overlay_container");
-    if (!canvas || !anim_container || !dom_overlay_container) {
-      setTimeout(() => {
-        this.checkLoadElement();
-      }, 200);
-    } else {
-      console.log("home4 click test")
-      document.getElementById('massimor_trigger-click').click();
-    }
-  }
   ngOnInit() {
   }
 
+  ngAfterViewInit(): void {
+    var count = 0;
+    let anim_container = document.getElementById("massimor_animation_container");
+ 
+    document.addEventListener('scroll', () => {
+      if (window.scrollY >= anim_container.getBoundingClientRect().top*1.1 && count == 0) {
+        // document.getElementById('massimor_trigger-click').click();
+        count  = 1;
+      }
+    });
+  }
 }
